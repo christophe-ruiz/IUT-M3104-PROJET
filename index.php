@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php header() ?>
+    <?php my_header() ?>
     <main class="corps">
         <p> Corps </p>
     </main>
-    <?php footer() ?>
+    <?php my_footer() ?>
 </body>
 </html>

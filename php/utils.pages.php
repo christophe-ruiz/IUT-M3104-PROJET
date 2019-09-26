@@ -1,5 +1,5 @@
 <?php
-function header() {
+function my_header() {
     echo <<<EOT
     <header class="topHeader">
         <a> Connexion </a>
@@ -8,7 +8,7 @@ function header() {
 EOT;
 }
 
-function footer() {
+function my_footer() {
     echo <<<EOT
     <header class="bottomFooter">
         <p> Copyright 2019 </p>
