@@ -10,8 +10,8 @@ EOT;
 
 function my_footer() {
     echo <<<EOT
-    <header class="bottomFooter">
+    <footer class="bottomFooter">
         <p> Copyright 2019 </p>
-    </header>
+    </footer>
 EOT;
 }

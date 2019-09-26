@@ -8,8 +8,6 @@ html, body {
 .topHeader {
     width: 100%;
     height: 10%;
-    position: fixed;
-    margin-bottom: 10%;
     box-shadow: 0 0 1em black;
 
     display: flex;
@@ -24,7 +22,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    align-items: stretch;
 }
 
 .corps {
