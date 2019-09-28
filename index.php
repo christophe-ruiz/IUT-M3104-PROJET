@@ -9,7 +9,7 @@
 <body>
     <?php my_header() ?>
     <main class="corps">
-        <p> Corps </p>
+        <span> Corps </span>
     </main>
     <?php my_footer() ?>
 </body>
