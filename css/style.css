@@ -29,6 +29,16 @@ html, body {
 .corps {
     height: 100%;
     width: 100%;
+    padding: 1%;
+}
+
+.corps>article {
+    height: 10vh;
+    width: 100%;
+    border-radius: 1vh;
+
+    display: flex;
+    justify-content: stretch;
 }
 
 .headerRightDiv {

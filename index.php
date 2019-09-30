@@ -9,7 +9,11 @@
 <body>
     <?php my_header() ?>
     <main class="corps">
-        <span> Corps </span>
+        <article>
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
     </main>
     <?php my_footer() ?>
 </body>
