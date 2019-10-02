@@ -8,7 +8,7 @@ function my_header() {
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a> Connexion </a>
+            <a href="php/main.php"> Connexion </a>
             <a> Inscription </a>
         </div>
     </header>
