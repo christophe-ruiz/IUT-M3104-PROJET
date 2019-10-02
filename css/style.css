@@ -50,7 +50,7 @@ h1, h2, p, a, span {
     align-items: center;
 }
 
-.bottomFooter>div{
+.divfooter{
     display: flex;
     flex-direction: column;
     justify-content: center;

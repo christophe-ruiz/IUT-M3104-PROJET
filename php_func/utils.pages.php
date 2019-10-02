@@ -19,7 +19,7 @@ EOT;
 function my_footer() {
     echo <<<EOT
     <footer class="bottomFooter">
-    <div>
+    <div class="divfooter">
         <img src = "img/logogithub.png" alt="LogoGitHub" class="logogithub" title="Thomas RIPPOL" >
         <a href="https://github.com/Wowsnake"> Steffen ALVAREZ </a>
         <a href="https://github.com/ThomasRp"> Thomas RIPPOL </a>
@@ -27,13 +27,13 @@ function my_footer() {
         <a href="https://github.com/AlexisVatin"> Alexis VATIN </a>
     </div>
     
-    <div>
+    <div class="divfooter">
            
         <p> Copyright 2019 </p>
         <img src="img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImgfooter">
     </div>
         
-    <div class="divfooterdroit">
+    <div class="divfooter divfooterdroit">
         <a href="#"> <img src="img/flechehaut.png" alt="flecheverslehaut" title="Haut de la page" class="flechehaut"> </a>
     </div>
     
