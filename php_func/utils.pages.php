@@ -34,9 +34,8 @@ function my_footer() {
     </div>
         
     <div class="divfooter divfooterdroit">
-        <a href="#"> <img src="img/flechehaut.png" alt="flecheverslehaut" title="Haut de la page" class="flechehaut"> </a>
         <a href="#"> <img src="img/help.png" alt="aide" title="Aide" class="help"> </a>
-
+        <a href="#"> <img src="img/flechehaut.png" alt="flecheverslehaut" title="Haut de la page" class="flechehaut"> </a>
     </div>
     
     </footer>
