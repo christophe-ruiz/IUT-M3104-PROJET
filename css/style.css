@@ -24,7 +24,6 @@ h1, h2, p, a, span {
     width: 100%;
     height: 12%;
     background: floralwhite;
-    border-bottom: #101820 solid;
 
     box-shadow: 0 0 1em black;
 
@@ -45,7 +44,6 @@ h1, h2, p, a, span {
 .corps {
     height: 100%;
     padding: 2.5% 1%;
-    background: floralwhite;
 
     display: flex;
     flex-direction: column;
