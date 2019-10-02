@@ -1,4 +1,4 @@
-<?php require_once 'php_func/utils.pages.php' ?>
+<?php require_once 'php_func/utils.pages.php' //MDU ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
