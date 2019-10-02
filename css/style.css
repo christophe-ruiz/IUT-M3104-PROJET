@@ -106,3 +106,8 @@ h1, h2, p, a, span {
     display: flex;
     flex-wrap: wrap;
 }
+
+.separator {
+    border: #101820 solid 0.1vw;
+
+}
