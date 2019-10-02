@@ -60,6 +60,7 @@ h1, h2, p, a, span {
 
 .divfooterdroit{
     align-items: flex-end;
+    flex-direction: row;
 
 }
 
@@ -119,7 +120,7 @@ h1, h2, p, a, span {
 
 .flechehaut{
     height: 5vh;
-    padding: 0 3vw 5vw 0;
+    padding: 0 3vw 0 5vw;
 }
 
 .help{
