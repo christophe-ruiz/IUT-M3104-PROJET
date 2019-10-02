@@ -85,7 +85,7 @@ h1, h2, p, a, span {
 }
 
 .topic>span, .topic>p {
-    font-size: 0.5vw;
+    font-size: 0.75vw;
 }
 
 .topic {
