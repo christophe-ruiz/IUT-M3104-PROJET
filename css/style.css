@@ -1,3 +1,6 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 html, body {
     height: 100%;
     width: 100%;
@@ -6,9 +9,19 @@ html, body {
     padding : 0;
 }
 
+a:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+h1, h2, p, a, span {
+    font-family: 'Quicksand', sans-serif;
+    transition: 1s;
+}
+
 .topHeader {
     width: 100%;
-    height: 10%;
+    height: 12%;
 
     box-shadow: 0 0 1em black;
 
@@ -28,17 +41,11 @@ html, body {
 
 .corps {
     height: 100%;
-    width: 100%;
-    padding: 1%;
-}
-
-.corps>article {
-    height: 10vh;
-    width: 100%;
-    border-radius: 1vh;
+    padding: 2.5% 1%;
 
     display: flex;
-    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headerRightDiv {
@@ -48,6 +55,10 @@ html, body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.headerRightDiv>a {
+    font-size: 1.3vw;
 }
 
 .headerLeftDiv {
@@ -71,4 +82,16 @@ html, body {
 
 .logoImg {
     width:100%;
+}
+
+.topic {
+    height: 10vh;
+    width: 66.66%;
+    border-radius: 1vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.75%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

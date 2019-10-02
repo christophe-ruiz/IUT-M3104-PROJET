@@ -9,7 +9,22 @@
 <body>
     <?php my_header() ?>
     <main class="corps">
-        <article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
             <span> Tichop </span>
             <p> Salut FreeNote </p>
             <p> Voir plus > </p>
