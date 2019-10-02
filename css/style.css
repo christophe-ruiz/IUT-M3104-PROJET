@@ -17,6 +17,12 @@ a:hover {
 
 a{
     text-decoration: none;
+    color: #101820;
+
+}
+
+a:visited{
+    color: #101820;
 }
 
 h1, h2, p, a, span {
