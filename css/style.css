@@ -59,7 +59,7 @@ h1, h2, p, a, span {
 }
 
 .divfooterdroit{
-    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: row;
 
 }
