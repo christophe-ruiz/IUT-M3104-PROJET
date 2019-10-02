@@ -37,7 +37,7 @@ h1, h2, p, a, span {
     height: 20%;
 
     display: flex;
-    justify-content: space-between;
+    #justify-content: space-between;
     align-content: center;
 }
 
@@ -88,6 +88,7 @@ h1, h2, p, a, span {
 
 .logogithub{
     height: 50%;
+    align-items: center;
 }
 
 .topic>span, .topic>p {
