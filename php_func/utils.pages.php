@@ -33,7 +33,7 @@ function my_footer() {
         <img src="img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImgfooter">
     </div>
         
-    <div>
+    <div class="divfooterdroit">
         <a href="#"> <img src="img/flechehaut.png" alt="flecheverslehaut" title="Haut de la page" class="flechehaut"> </a>
     </div>
     
