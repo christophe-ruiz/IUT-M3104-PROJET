@@ -84,6 +84,10 @@ h1, h2, p, a, span {
     width:100%;
 }
 
+.topic>span, .topic>p {
+    font-size: 2vw;
+}
+
 .topic {
     height: 10vh;
     width: 66.66%;
