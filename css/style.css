@@ -101,3 +101,8 @@ h1, h2, p, a, span {
     justify-content: space-around;
     align-items: center;
 }
+
+.splitter {
+    display: flex;
+    flex-wrap: wrap;
+}

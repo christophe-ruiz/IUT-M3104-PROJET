@@ -7,29 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php my_header() ?>
-    <main class="corps">
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-    </main>
-    <?php my_footer() ?>
+    <?php
+    my_header();
+    mainView();
+    my_footer() ?>
 </body>
 </html>
