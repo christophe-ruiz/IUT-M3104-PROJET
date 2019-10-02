@@ -20,7 +20,8 @@ function my_footer() {
     echo <<<EOT
     <footer class="bottomFooter">
         <p> Copyright 2019 </p>
-        <a href="https://github.com/ThomasRp">  <img src = "img/logogithub.png" alt="LogoGitHub" class="logogithub" title="Thomas RIPPOL" > </a>
+        <img src = "img/logogithub.png" alt="LogoGitHub" class="logogithub" title="Thomas RIPPOL" >
+        <a href="https://github.com/ThomasRp"> Thomas RIPPOL </a>
     </footer>
 EOT;
 }
