@@ -86,6 +86,10 @@ h1, h2, p, a, span {
     height:100%;
 }
 
+.logogithub{
+    height: 50%;
+}
+
 .topic>span, .topic>p {
     font-size: 1.25vw;
 }
