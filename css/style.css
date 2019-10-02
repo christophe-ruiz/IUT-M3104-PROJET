@@ -15,6 +15,10 @@ a:hover {
     transition: 0.5s;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1, h2, p, a, span {
     font-family: 'Quicksand', sans-serif;
     transition: 1s;
@@ -88,7 +92,7 @@ h1, h2, p, a, span {
 }
 
 .logogithub{
-    height: 5vh;
+    height: 10vh;
     align-items: center;
 }
 
