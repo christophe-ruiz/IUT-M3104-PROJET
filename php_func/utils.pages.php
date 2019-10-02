@@ -30,7 +30,7 @@ function my_footer() {
     <div>
            
         <p> Copyright 2019 </p>
-
+        <img src="img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg">
     </div>
         
     <div>
