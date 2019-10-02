@@ -21,7 +21,10 @@ function my_footer() {
     <footer class="bottomFooter">
         <p> Copyright 2019 </p>
         <img src = "img/logogithub.png" alt="LogoGitHub" class="logogithub" title="Thomas RIPPOL" >
+        <a href="https://github.com/Wowsnake"> Steffen ALVAREZ </a>
         <a href="https://github.com/ThomasRp"> Thomas RIPPOL </a>
+        <a href="https://github.com/christophe-ruiz"> Christophe RUIZ </a>
+        <a href="https://github.com/AlexisVatin"> Alexis VATIN </a>
     </footer>
 EOT;
 }
