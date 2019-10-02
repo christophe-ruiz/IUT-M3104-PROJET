@@ -35,6 +35,8 @@ h1, h2, p, a, span {
 .bottomFooter {
     width: 100%;
     height: 20%;
+    background: #101820;
+    color: floralwhite;
 
     display: flex;
     justify-content: space-between;
@@ -43,6 +45,7 @@ h1, h2, p, a, span {
 
 .corps {
     height: 100%;
+    width: 46.95vw;
     padding: 2.5% 1%;
 
     display: flex;
