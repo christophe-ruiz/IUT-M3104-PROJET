@@ -1,17 +1,17 @@
 <?php
-function my_header() {
+function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png') {
     echo <<<EOT
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
     <title>FreeNote</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="${$stylesheet}">
 </head>
 <body>
     <header class="topHeader">
         <div class="headerLeftDiv">
-            <img src="img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg">
+            <img src="${$img}" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg">
         </div>
         <div class="headerCenterDiv">
         </div>
