@@ -1,7 +1,15 @@
 <?php
 function my_header() {
     echo <<<EOT
-<header class="topHeader">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>FreeNote</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="topHeader">
         <div class="headerLeftDiv">
             <img src="img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg">
         </div>
@@ -53,5 +61,7 @@ function my_footer() {
     <footer class="bottomFooter">
         <p> Copyright 2019 </p>
     </footer>
+</body>
+</html>
 EOT;
 }
