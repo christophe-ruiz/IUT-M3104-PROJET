@@ -7,7 +7,6 @@ html, body {
 
     margin : 0;
     padding : 0;
-    background: floralwhite;
 }
 
 a:hover {
@@ -63,6 +62,7 @@ h1, h2, p, a, span {
 }
 
 .headerRightDiv>a {
+    text-decoration: none;
     font-size: 1.3vw;
 }
 
