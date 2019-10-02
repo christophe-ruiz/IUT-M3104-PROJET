@@ -24,7 +24,7 @@ h1, h2, p, a, span {
     width: 100%;
     height: 12%;
     background: floralwhite;
-    border-bottom: #101820;
+    border-bottom: #101820 solid;
 
     box-shadow: 0 0 1em black;
 
