@@ -17,7 +17,7 @@ a:hover {
 a{
     text-decoration: none;
     color: #101820;
-
+    font-size: 1vw;
 }
 
 a:visited{
@@ -44,7 +44,7 @@ h1, h2, p, a, span {
 .bottomFooter {
     width: 100%;
     height: 20%;
-    background: #101820;
+    background: white;
     color: floralwhite;
 
     display: flex;
@@ -117,7 +117,7 @@ h1, h2, p, a, span {
 }
 
 .logogithub{
-    height: 10vh;
+    height: 8vh;
     align-items: center;
 }
 
@@ -153,5 +153,4 @@ h1, h2, p, a, span {
 
 .separator {
     border: #101820 solid 0.1vw;
-
 }
