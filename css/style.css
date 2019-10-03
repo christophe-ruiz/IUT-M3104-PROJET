@@ -55,8 +55,8 @@ h1, h2, h3, p, a, span, label, input {
     position: absolute;
     top: 14vh;
     right: 11vw;
-    border: #101820 solid;
-    border-radius: 3px;
+    border: #101820 solid 1px;
+    border-radius: 2vw;
     width: 14vw;
     height: 18vw;
     display: flex;
