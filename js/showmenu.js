@@ -1,17 +1,19 @@
 function showmenu() {
-    var x = document.getElementById('divconnexion');
-    if (x.style.visibility == 'hidden') {
-        x.style.visibility = 'visible';
+    var y = document.getElementById('divconnexion');
+    if (y.style.visibility == 'hidden' && x.style.visibility == 'hidden') {
+        y.style.visibility = 'visible';
     } else {
-        x.style.visibility = 'hidden';
+        y.style.visibility = 'hidden';
     }
 }
 
 function showmenu2() {
+    var y = document.getElementById('divconnexion');
     var x = document.getElementById('divinscription');
-    if (x.style.visibility == 'hidden') {
+    if (x.style.visibility == 'hidden' && y.style.visibility == 'hidden') {
         x.style.visibility = 'visible';
-    } else {
+    }
+    else {
         x.style.visibility = 'hidden';
     }
 }
