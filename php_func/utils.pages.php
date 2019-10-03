@@ -8,7 +8,7 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
     <meta charset="utf-8">
     <title>FreeNote</title>
     <link rel="stylesheet" href="{$stylesheet}">
-    <script type="text/javascript" src="../js/showmenu.js"></script>
+    <script type="text/javascript" src="js/showmenu.js"></script>
     
 </head>
 <body>
