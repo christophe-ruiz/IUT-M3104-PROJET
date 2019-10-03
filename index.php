@@ -2,7 +2,7 @@
     require_once 'php_func/utils.pages.php';
     my_header(); ?>
 
-    <div class="logintriangle"></div>
+    <div class="divconnexion:before"></div>
 
     <div class="divconnexion">
         <h3> Connexion </h3><br>

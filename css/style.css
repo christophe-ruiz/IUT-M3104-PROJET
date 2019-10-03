@@ -51,7 +51,7 @@ h1, h2, h3, p, a, span, label, input {
     align-items: center;
 }
 
-.logintriangle {
+.divconnexion:before {
     top: 4vw;
     right: 13vw;
     border-bottom: solid 63px #ccc;
@@ -60,7 +60,7 @@ h1, h2, h3, p, a, span, label, input {
     position: absolute;
 }
 
-.divconnexion{
+.divconnexion:{
     position: absolute;
     top: 13vh;
     right: 10vw;
