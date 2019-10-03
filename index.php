@@ -3,7 +3,7 @@
     my_header(); ?>
 
 
-    <div class="divconnexion">
+    <div id="divconnexion">
         <h3> Connexion </h3><br>
         <form method="" id="form" action="">
             <label>Nom utilisateur :</label><br>
