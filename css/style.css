@@ -52,11 +52,13 @@ h1, h2, h3, p, a, span, label, input {
 }
 
 .logintriangle {
+    top: 13vw;
+    right: 16vw;
     width: 60px;
     height: 30px;
-    border-bottom: solid 50px #101820;
-    border-left: solid 50px transparent;
-    border-right: solid 50px transparent;
+    border-bottom: solid 30px #101820;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
 }
 
 .divconnexion{
