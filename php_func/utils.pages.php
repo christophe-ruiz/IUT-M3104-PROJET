@@ -19,7 +19,7 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a onclick="showmenu()"> Connexion </a>
+            <p onclick="showmenu()"> Connexion </p>
             <a> Inscription </a>
         </div>
     </header>
@@ -38,7 +38,7 @@ function mainView() {
         </article>
         <article class="topic">
             <span> Tichop </span>
-            <p> Salut FreeNote </p>K
+            <p> Salut FreeNote </p>
             <p> Voir plus > </p>
         </article>
         <article class="topic">
