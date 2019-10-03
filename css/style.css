@@ -55,6 +55,8 @@ h1, h2, h3, p, a, span, label, input {
     position: absolute;
     top: 14vh;
     right: 11vw;
+    border: #101820;
+    border-radius: 3px;
 }
 
 .divfooter{
