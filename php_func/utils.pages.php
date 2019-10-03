@@ -7,7 +7,7 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
     <meta charset="utf-8">
     <title>FreeNote</title>
     <link rel="stylesheet" href="{$stylesheet}">
-</head>
+    <script type="text/javascript" src="showmenu.js"></script></head>
 <body>
     <header class="topHeader">
         <div class="headerLeftDiv">
@@ -16,7 +16,7 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a href="php/main.php"> Connexion </a>
+            <a onclick="showmenu()"> Connexion </a>
             <a> Inscription </a>
         </div>
     </header>
