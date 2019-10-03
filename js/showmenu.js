@@ -1,5 +1,5 @@
 function showmenu() {
-    var x = document.getElementById('divconnexion');
+    var x = document.getElementsByClassName('divconnexion');
     if (x.style.visibility === 'hidden') {
         x.style.visibility = 'visible';
     } else {

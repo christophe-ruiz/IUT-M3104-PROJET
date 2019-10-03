@@ -38,7 +38,7 @@ function mainView() {
         </article>
         <article class="topic">
             <span> Tichop </span>
-            <p> Salut FreeNote </p>
+            <p> Salut FreeNote </p>K
             <p> Voir plus > </p>
         </article>
         <article class="topic">
