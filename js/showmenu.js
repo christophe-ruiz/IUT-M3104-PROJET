@@ -1,5 +1,6 @@
 function showmenu() {
     var y = document.getElementById('divconnexion');
+    var x = document.getElementById('divinscription');
     if (y.style.visibility == 'hidden' && x.style.visibility == 'hidden') {
         y.style.visibility = 'visible';
     } else {
