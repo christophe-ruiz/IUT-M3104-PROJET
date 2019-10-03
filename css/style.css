@@ -56,9 +56,9 @@ h1, h2, h3, p, a, span, label, input {
     top: -2vw;
     right: 3vw;
 
-    border-bottom: solid 63px #101820;
-    border-left: solid 80px transparent;
-    border-right: solid 80px transparent;
+    border-bottom: solid 64px #101820;
+    border-left: solid 81px transparent;
+    border-right: solid 81px transparent;
     position: absolute;
 }
 
