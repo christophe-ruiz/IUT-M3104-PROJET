@@ -4,10 +4,13 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
     <meta charset="utf-8">
     <title>FreeNote</title>
     <link rel="stylesheet" href="{$stylesheet}">
-    <script type="text/javascript" src="showmenu.js"></script></head>
+    <script type="text/javascript" src="../js/showmenu.js"></script>
+    
+</head>
 <body>
     <header class="topHeader">
         <div class="headerLeftDiv">
