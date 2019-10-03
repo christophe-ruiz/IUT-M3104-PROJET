@@ -51,6 +51,14 @@ h1, h2, h3, p, a, span, label, input {
     align-items: center;
 }
 
+.logintriangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+}
+
 .divconnexion{
     position: absolute;
     top: 13vh;
