@@ -3,7 +3,7 @@
     my_header(); ?>
 
 <div class="divconnexion">
-    <h3>Mon premier forulaire avec AJAX</h3><br>
+    <h3> Connexion </h3><br>
     <form method="" id="form" action="">
         <label>Nom utilisateur :</label><br>
         <input type="text" name="username">
