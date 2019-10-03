@@ -11,8 +11,9 @@
         <label>Mot de passe :</label><br>
         <input type="password" name="password">
         <br><br>
-        <input type="Submit" value="Validation">
         <a href=""> Mot de passe oublié ? </a>
+        <br><br>
+        <input type="Submit" value="Validation">
 
     </form>
 </div>
