@@ -67,7 +67,7 @@ h1, h2, h3, p, a, span, label, input {
     top: -2vw;
     right: 3vw;
 
-    border-bottom: solid 63px #ccc;
+    border-bottom: solid 63px floralwhite;
     border-left: solid 80px transparent;
     border-right: solid 80px transparent;
     position: absolute;
