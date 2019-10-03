@@ -11,7 +11,7 @@
         <label>Mot de passe :</label><br>
         <input type="password" name="password">
         <br><br>
-        <input type="Submit" value="validation">
+        <input type="Submit" value="Validation">
     </form>
 </div>
 

@@ -24,7 +24,7 @@ a:visited{
     color: #101820;
 }
 
-h1, h2, h3, p, a, span, label {
+h1, h2, h3, p, a, span, label, input {
     font-family: 'Quicksand', sans-serif;
     transition: 1s;
 }
