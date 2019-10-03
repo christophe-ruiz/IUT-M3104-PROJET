@@ -20,7 +20,7 @@ function my_header($stylesheet = 'css/style.css', $img = 'img/freenote-logo.png'
         </div>
         <div class="headerRightDiv">
             <a onclick="showmenu()"> Connexion </a>
-            <a> Inscription </a>
+            <a onclick="showmenu2()"> Inscription </a>
         </div>
     </header>
 
