@@ -53,18 +53,18 @@ h1, h2, h3, p, a, span, label, input {
 
 .divconnexion::before {
     content:"\A";
-    top: -2vw;
+    top: -3vw;
     right: 3vw;
 
     border-bottom: solid 64px #101820;
-    border-left: solid 81px transparent;
-    border-right: solid 81px transparent;
+    border-left: solid 83px transparent;
+    border-right: solid 83px transparent;
     position: absolute;
 }
 
 .divconnexion::after {
     content:"\A";
-    top: -2vw;
+    top: -3vw;
     right: 3vw;
 
     border-bottom: solid 63px floralwhite;
