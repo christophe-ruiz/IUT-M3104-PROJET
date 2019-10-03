@@ -57,6 +57,12 @@ h1, h2, h3, p, a, span, label, input {
     right: 11vw;
     border: #101820 solid;
     border-radius: 3px;
+    width: 14vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .divfooter{
