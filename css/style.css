@@ -53,10 +53,10 @@ h1, h2, h3, p, a, span, label, input {
 
 .divconnexion::before {
     content:"\A";
-    top: -5vw;
-    right: 2vw;
+    top: -2vw;
+    right: 3vw;
 
-    border-bottom: solid 63px #ccc;
+    border-bottom: solid 63px #101820;
     border-left: solid 80px transparent;
     border-right: solid 80px transparent;
     position: absolute;
@@ -64,10 +64,10 @@ h1, h2, h3, p, a, span, label, input {
 
 .divconnexion::after {
     content:"\A";
-    top: -5vw;
-    right: 2vw;
+    top: -2vw;
+    right: 3vw;
 
-    border-bottom: solid 63px #101820;
+    border-bottom: solid 63px #ccc;
     border-left: solid 80px transparent;
     border-right: solid 80px transparent;
     position: absolute;
