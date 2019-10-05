@@ -24,9 +24,9 @@ a:visited{
     color: #101820;
 }
 
-h1, h2, p, a, span {
+h1, h2, h3, p, a, span, label, input {
     font-family: 'Quicksand', sans-serif;
-    transition: 1s;
+    transition: 0s;
 }
 
 .topHeader {
@@ -49,6 +49,62 @@ h1, h2, p, a, span {
 
     display: flex;
     align-items: center;
+}
+
+/*.divconnexion::before {*/
+/*    content:"\A";*/
+/*    top: -3vw;*/
+/*    right: 3vw;*/
+
+/*    border-bottom: solid 64px #101820;*/
+/*    border-left: solid 83px transparent;*/
+/*    border-right: solid 83px transparent;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.divconnexion::after {*/
+/*    content:"\A";*/
+/*    top: -3vw;*/
+/*    right: 3vw;*/
+
+/*    border-bottom: solid 63px floralwhite;*/
+/*    border-left: solid 80px transparent;*/
+/*    border-right: solid 80px transparent;*/
+/*    position: absolute;*/
+/*}*/
+
+#divconnexion{
+    position: absolute;
+    top: 13vh;
+    right: 10vw;
+    border: #101820 solid 1px;
+    border-radius: 2vw;
+    width: 14vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+
+}
+
+#divinscription{
+    position: absolute;
+    top: 13vh;
+    right: 4vw;
+    border: #101820 solid 1px;
+    border-radius: 2vw;
+    width: 17vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+
 }
 
 .divfooter{

@@ -4,9 +4,12 @@ function my_header($stylesheet = 'web/css/style.css', $img = 'web/img/freenote-l
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
     <meta charset="utf-8">
     <title>FreeNote</title>
     <link rel="stylesheet" href="{$stylesheet}">
+    <script type="text/javascript" src="js/showmenu.js"></script>
+    
 </head>
 <body>
     <header class="topHeader">
@@ -16,8 +19,8 @@ function my_header($stylesheet = 'web/css/style.css', $img = 'web/img/freenote-l
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a href="php/main.php"> Connexion </a>
-            <a> Inscription </a>
+            <a onclick="showmenu()"> Connexion </a>
+            <a onclick="showmenu2()"> Inscription </a>
         </div>
     </header>
 
