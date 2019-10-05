@@ -19,8 +19,8 @@ function my_header($stylesheet = 'web/css/style.css', $img = 'web/img/freenote-l
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a onclick="showmenu()"> Connexion </a>
-            <a onclick="showmenu2()"> Inscription </a>
+            <a class="sign" onclick="showmenu()"> Connexion </a>
+            <a class="sign" onclick="showmenu2()"> Inscription </a>
         </div>
     </header>
 

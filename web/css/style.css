@@ -10,14 +10,15 @@ html, body {
 }
 
 a:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
+    transform: scale(1.02);
+    transition: 0.2s;
 }
 
 a{
     text-decoration: none;
     color: #101820;
     font-size: 1vw;
+    cursor: pointer;
 }
 
 a:visited{
@@ -27,6 +28,25 @@ a:visited{
 h1, h2, h3, p, a, span, label, input {
     font-family: 'Quicksand', sans-serif;
     transition: 0s;
+}
+
+.sign:hover {
+    background: floralwhite;
+    color: #101820;
+    border: 0.11vw solid #101820;
+}
+
+.sign{
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 1vw;
+    cursor: pointer;
+
+    padding: 0.75vw 1.25vw;
+    border-radius: 1vw;
+    background: #101820;
+    border-radius: 1vw;
+    border: 0.11vw solid transparent;
 }
 
 .topHeader {
@@ -50,28 +70,6 @@ h1, h2, h3, p, a, span, label, input {
     display: flex;
     align-items: center;
 }
-
-/*.divconnexion::before {*/
-/*    content:"\A";*/
-/*    top: -3vw;*/
-/*    right: 3vw;*/
-
-/*    border-bottom: solid 64px #101820;*/
-/*    border-left: solid 83px transparent;*/
-/*    border-right: solid 83px transparent;*/
-/*    position: absolute;*/
-/*}*/
-
-/*.divconnexion::after {*/
-/*    content:"\A";*/
-/*    top: -3vw;*/
-/*    right: 3vw;*/
-
-/*    border-bottom: solid 63px floralwhite;*/
-/*    border-left: solid 80px transparent;*/
-/*    border-right: solid 80px transparent;*/
-/*    position: absolute;*/
-/*}*/
 
 #divconnexion{
     position: absolute;
