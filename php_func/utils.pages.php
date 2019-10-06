@@ -1,5 +1,5 @@
 <?php
-function my_header($stylesheet = 'web/css/style.css', $img = 'web/img/freenote-logo.png') {
+function my_header($stylesheet = './web/css/style.css', $img = './web/img/freenote-logo.png') {
     echo <<<EOT
 <!DOCTYPE html>
 <html lang="fr">
