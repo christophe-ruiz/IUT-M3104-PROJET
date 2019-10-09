@@ -1,50 +1,9 @@
 <?php
-    require_once 'php_func/utils.pages.php';
-    my_header(); ?>
-
-
-    <div id="divconnexion">
-        <h3> Connexion </h3><br>
-        <form method="" id="form" action="">
-            <label>Nom utilisateur :</label><br>
-            <input type="text" name="username">
-            <br><br>
-            <label>Mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <a href=""> Mot de passe oublié ? </a>
-            <br><br>
-            <input type="Submit" value="Validation">
-
-        </form>
-    </div>
-
-    <div id="divinscription">
-        <h3> Inscription </h3><br>
-        <form method="" id="form" action="">
-            <label>Nom utilisateur :</label><br>
-            <input type="text" name="username">
-            <br><br>
-            <label>Mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Vérification mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Age</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Sexe</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <a href=""> Mot de passe oublié ? </a>
-            <br><br>
-            <input type="Submit" value="Validation">
-
-        </form>
-    </div>
-
-<?php
-    mainView();
-    my_footer();
-                    ?>
+spl_autoload_register(function ($class) {
+    if (file_exists('class/' . $class . '.php'))
+        require_once 'class/' . $class . '.php';
+    else if (file_exists('app/controller/' . $class . '.php'))
+        require_once 'app/controller/' . $class . '.php';
+});
+require_once 'php_func/utils.pages.php';
+require_once 'core/routes.php';
