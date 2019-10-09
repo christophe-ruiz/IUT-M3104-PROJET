@@ -28,16 +28,11 @@ EOT;
 function mainView() {
     echo <<<EOT
 <nav class="corps">
-        <h2> Les plus récents </h2>
+        <h2> Les Topics du jour </h2>
         <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
+            <span> 1er message: </span>
+            <p> Lorem ipsum dolor sit amet,</p>
+            <p> user **** > </p>
         </article>
         <article class="topic">
             <span> Tichop </span>
