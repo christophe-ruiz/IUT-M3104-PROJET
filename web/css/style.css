@@ -169,7 +169,8 @@ form>imput{
 }
 
 .logoImg {
-    height:100%;
+    height:auto;
+    width: auto;
 }
 
 .logoImgfooter{
@@ -214,3 +215,4 @@ form>imput{
 .separator {
     border: #101820 solid 0.1vw;
 }
+
