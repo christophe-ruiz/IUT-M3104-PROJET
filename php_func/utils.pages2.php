@@ -32,10 +32,10 @@ function mainView() {
         <article class="topic">
             <span> 1er message: </span>
             <p> Lorem ipsum dolor sit amet,</p>
-            <p> user **** > </p>
+            <p> user **** - </p>
         </article>
         <article class="topic">
-            <span> Tichop </span>
+            <span> Message recent </span>
             <p> Salut FreeNote </p>
             <p> Voir plus > </p>
         </article>
