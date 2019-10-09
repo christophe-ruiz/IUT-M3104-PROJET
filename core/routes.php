@@ -5,5 +5,5 @@ Route::set('index', function (){
 });
 
 Route::set('topic', function (){
-    Index::CreateView('topic');
+    Topic::CreateView('topic');
 });
