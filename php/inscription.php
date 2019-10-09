@@ -23,4 +23,5 @@
         Database::$pdo->prepare($sql)->execute();
 
         $_SESSION['currentUser'] = new User($login);
+        header('Location: ..');
     }

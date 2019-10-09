@@ -4,7 +4,7 @@
 
     <div id="divconnexion">
         <h3> Connexion </h3><br>
-        <form method="" id="form" action="">
+        <form method="POST" id="form" action="../../php/inscription.php">
             <label>Nom utilisateur :</label><br>
             <input type="text" name="login">
             <br><br>
