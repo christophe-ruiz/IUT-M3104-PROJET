@@ -50,7 +50,8 @@ function mainView() {
             <span> Tichop </span>
             <p> Salut FreeNote </p>
             <p> Voir plus > </p>
-        </article>    </nav>
+        </article>
+    </nav>
 EOT;
 
 }
