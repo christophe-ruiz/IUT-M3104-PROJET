@@ -23,7 +23,7 @@ function my_header($stylesheet = '../web/css/style.css', $img = '../web/img/free
             <a class="sign" onclick="showmenu2()"> Inscription </a>
         </div>
     </header>
-
+ 
 EOT;
 }
 
