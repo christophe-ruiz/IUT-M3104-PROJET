@@ -1,7 +1,7 @@
 <?php
 
 
-class Topic extends Controller
+class Board extends Controller
 {
 
 }

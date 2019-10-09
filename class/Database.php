@@ -3,7 +3,9 @@
 
 class Database
 {
-    private static function connect() {
+    public static $pdo;
+
+    public static function connect() {
         $dbCredentials = parse_ini_file('../config/dbCredentials.config',TRUE)['database'];
 
         $host = $dbCredentials['host'];
@@ -24,6 +26,6 @@ class Database
             throw new \PDOException($e->getMessage(), (int)$e->getCode());
         }
 
-        return $pdo;
+        self::$pdo = $pdo;
     }
 }

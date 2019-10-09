@@ -4,8 +4,8 @@ Route::set('index', function (){
     Index::CreateView('index');
 });
 
-Route::set('topic', function (){
-    Topic::CreateView('topic');
+Route::set('board', function (){
+    Board::CreateView('board');
 });
 
 ?>
