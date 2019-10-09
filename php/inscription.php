@@ -1,15 +1,15 @@
 <?php
     require_once '../core/autoloader.php';
-
+    if (!isset($action) || empty($action)) die("Erreur Inscription");
     $action = $_POST['action'];
     $validPWD = true;
 
-    if (isset($action) && !empty($action)) {
-        $login = $_POST['login'];
-        $mail = $_POST['mail'];
-        $pwd = $_POST['pwd'];
-        $vpwd = $_POST['vpwd'];
-    }
+    $login = $_POST['login'];
+    $mail = $_POST['mail'];
+    $pwd = $_POST['pwd'];
+    $vpwd = $_POST['vpwd'];
+
+    echo $login;
 
     if ($pwd != $vpwd) {
         $validPWD = false;

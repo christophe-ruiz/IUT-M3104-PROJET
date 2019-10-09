@@ -1,5 +1,6 @@
 <?php
-    my_header(); ?>
+    my_header();
+    ?>
 
 
     <div id="divconnexion">
@@ -33,8 +34,7 @@
             <label>Mail</label><br>
             <input type="text" name="mail">
             <br><br>
-            <input type="Submit" value="Validation">
-
+            <input type="Submit" value="Validation" name="action">
         </form>
     </div>
 
