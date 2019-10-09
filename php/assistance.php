@@ -1,3 +1,7 @@
+<?php
+    require_once 'php_func/utils.pages.php';
+    my_header();
+    ?>
 <!DOCTYPE html>
     <html lang="fr">
     <head>
@@ -15,3 +19,5 @@
         </div>
     </header>
 
+<?php
+    my_footer();
