@@ -19,14 +19,39 @@ function my_header($stylesheet = '../web/css/style.css', $img = '../web/img/free
         <div class="headerCenterDiv">
         </div>
         <div class="headerRightDiv">
-            <a class="sign" onclick="showmenu()"> Connexion </a>
-            <a class="sign" onclick="showmenu2()"> Inscription </a>
+            <a class="sign" onclick="showmenu()"> Deconnexion </a>
         </div>
     </header>
  
 EOT;
 }
+function mainView() {
+    echo <<<EOT
+<nav class="corps">
+        <h2> Les plus récents </h2>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>
+        <article class="topic">
+            <span> Tichop </span>
+            <p> Salut FreeNote </p>
+            <p> Voir plus > </p>
+        </article>    </nav>
+EOT;
 
+}
 function my_footer() {
     echo <<<EOT
     <footer class="bottomFooter">

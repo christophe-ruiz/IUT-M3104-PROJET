@@ -1,5 +1,5 @@
 <?php
-    require_once 'php_func/utils.pages2.php';
+    require_once '../php_func/utils.pages2.php';
     my_header();
     ?>
 
@@ -8,4 +8,5 @@
         </div>
 
 <?php
+mainView();
     my_footer();
