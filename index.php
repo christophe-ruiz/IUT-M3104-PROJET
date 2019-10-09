@@ -7,4 +7,3 @@ spl_autoload_register(function ($class) {
 });
 require_once 'php_func/utils.pages.php';
 require_once 'core/routes.php';
-echo 'uh oh';
