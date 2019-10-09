@@ -9,5 +9,6 @@ class Route
         self::$validRoutes[] = $route;
         if ($_GET['url'] == $route)
             $function->__invoke();
+        else Index::CreateView('index');
     }
 }
