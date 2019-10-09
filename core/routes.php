@@ -7,3 +7,5 @@ Route::set('index', function (){
 Route::set('topic', function (){
     Topic::CreateView('topic');
 });
+
+?>
