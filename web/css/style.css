@@ -105,6 +105,12 @@ h1, h2, h3, p, a, span, label, input {
 
 }
 
+form>imput{
+    width: 100%;
+    max-width: 80%;
+
+}
+
 .divfooter{
     display: flex;
     flex-direction: column;
