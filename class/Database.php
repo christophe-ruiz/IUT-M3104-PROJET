@@ -14,6 +14,8 @@ class Database
         $dbName = $dbCredentials['username'];
         $charset = 'utf8mb4';
 
+        echo $host;
+
         $dsn = 'mysql:host='.$host.';dbname='.$dbName.';charset='.$charset;
         $options = [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
