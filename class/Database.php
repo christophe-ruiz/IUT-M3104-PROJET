@@ -6,7 +6,7 @@ class Database
     public static $pdo;
 
     public static function connect() {
-        $dbCredentials = parse_ini_file('../config/dbCredentials.config',TRUE)['database'];
+        $dbCredentials = parse_ini_file('../config/dbCredentials.ini',TRUE)['database'];
 
         $host = $dbCredentials['host'];
         $username = $dbCredentials['username'];
