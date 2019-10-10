@@ -21,7 +21,7 @@
 
     <div id="divinscription">
         <h3> Inscription </h3><br>
-        <form method="POST" id="form" action="../../php/func_inscription.php">
+        <form method="POST" id="form" name="action" action="../../php/func_inscription.php">
             <label>Nom utilisateur :</label><br>
             <input type="text" name="login">
             <br><br>
@@ -34,7 +34,7 @@
             <label>Mail</label><br>
             <input type="text" name="mail">
             <br><br>
-            <input type="Submit" value="Validation" name="action">
+            <input type="Submit" value="Validation">
         </form>
     </div>
 

@@ -1,7 +1,7 @@
 <?php
     require_once '../core/autoloader.php';
-    if (!isset($action) || empty($action)) die("Erreur Inscription");
     $action = $_POST['action'];
+    if (!isset($action) || empty($action)) die("Erreur Inscription");
     $validPWD = true;
 
     $login = $_POST['login'];
