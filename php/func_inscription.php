@@ -23,4 +23,6 @@
         Database::$pdo->prepare($sql)->execute();
 
         $_SESSION['currentUser'] = new User($login);
+        $_GET['url'] = 'index';
+        header('Location: ../../index.php');
     }
