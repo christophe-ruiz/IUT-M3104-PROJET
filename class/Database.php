@@ -3,9 +3,14 @@
 
 class Database
 {
+    function __construct()
+    {
+        self::$pdo = $this->connect();
+    }
+
     public static $pdo;
 
-    public static function connect() {
+    private function connect() {
         $dbCredentials = parse_ini_file('../config/dbCredentials.ini',TRUE)['database'];
 
         $host = $dbCredentials['host'];
@@ -24,11 +29,12 @@ class Database
         ];
         try {
             $pdo = new PDO($dsn, $username, $password, $options);
+            return $pdo;
         } catch (PDOException $e) {
             $e->getMessage();
             echo (int)$e->getCode();
         }
 
-        self::$pdo = $pdo;
+        return null;
     }
 }
