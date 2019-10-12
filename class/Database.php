@@ -33,12 +33,10 @@ class Database
         ];
         try {
             $pdo = new PDO($dsn, $username, $password, $options);
-            return $pdo;
         } catch (PDOException $e) {
             echo $e->getMessage();
             echo (int)$e->getCode();
         }
-
-        return null;
+        return $pdo;
     }
 }
