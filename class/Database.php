@@ -5,7 +5,7 @@ class Database
 {
     function __construct()
     {
-        self::$pdo = $this->connect();
+        $this->pdo = $this->connect();
     }
 
     private $pdo;
