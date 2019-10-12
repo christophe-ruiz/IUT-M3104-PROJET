@@ -1,5 +1,6 @@
 <?php
-    require_once '../core/autoloader.php';
+    require '../core/autoloader.php';
+    include '../class/Database.php';
     $action = $_POST['action'];
     if (!isset($action) || empty($action)) die("Erreur Inscription");
     $validPWD = true;
