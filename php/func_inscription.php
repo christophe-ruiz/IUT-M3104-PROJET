@@ -20,7 +20,7 @@
 
         $myDb = new Database();
         $sql = "INSERT INTO USER VALUES ('$login', '$pwd', '$mail', NOW(), FALSE, 0)";
-        $myDb::$pdo->prepare($sql)->execute();
+        (($myDb::$pdo)->prepare($sql))->execute();
 
         $_SESSION['currentUser'] = new User($login);
         $_GET['url'] = 'index';
