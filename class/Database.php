@@ -24,8 +24,9 @@ class Database
         ];
         try {
             $pdo = new PDO($dsn, $username, $password, $options);
-        } catch (\PDOException $e) {
-            throw new \PDOException($e->getMessage(), (int)$e->getCode());
+        } catch (PDOException $e) {
+            $e->getMessage();
+            echo (int)$e->getCode();
         }
 
         self::$pdo = $pdo;
