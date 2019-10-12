@@ -10,7 +10,6 @@
             Board::CreateView('board');
         else {
             $_GET['url'] = 'index';
-            echo $_GET['url'];
             require 'core/routes.php';
     }
     }
