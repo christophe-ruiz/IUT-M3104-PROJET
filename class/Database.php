@@ -8,7 +8,11 @@ class Database
         self::$pdo = $this->connect();
     }
 
-    public static $pdo;
+    private $pdo;
+
+    public function getPDO() {
+        return $this->pdo;
+    }
 
     private function connect() {
         $dbCredentials = parse_ini_file('../config/dbCredentials.ini',TRUE)['database'];
