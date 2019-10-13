@@ -1,5 +1,7 @@
 <?php
     require_once '../class/Database.php';
+    require_once '../class/User.php';
+    session_start();
     $action = $_POST['action'];
     if (!isset($action) || empty($action)) die("Erreur Inscription");
     $validPWD = true;
