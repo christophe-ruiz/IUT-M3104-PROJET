@@ -30,6 +30,14 @@ h1, h2, h3, p, a, span, label, input {
     transition: 0s;
 }
 
+.adminStatus {
+    font-size: 1vw;
+    color: red;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
 .sign:hover {
     background: floralwhite;
     color: #101820;

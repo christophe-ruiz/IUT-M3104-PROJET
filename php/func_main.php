@@ -1,9 +1,9 @@
 <?php
-    require_once "../php_func/utils.pages.php";
+    require_once "../layouts/header.php";
     my_header('../web/css/style.css', '../img/freenote-logo.png'); ?>
     <main class="splitter">
-        <?php mainView(); ?>
+        <?php require_once 'layouts/mainView.php'?>
         <div class="separator"></div>
-        <?php mostLiked(); ?>
+        <?php require_once 'layouts/mostLiked.php'?>
     </main>
-    <?php my_footer(); ?>
+    <?php require_once 'layouts/footer.php'?>
