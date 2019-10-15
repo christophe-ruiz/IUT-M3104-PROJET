@@ -10,13 +10,12 @@
     $pwd = $_POST['pwd'];
 
     $myDb = new Database();
-    $sql = "SELECT PASS FROM UTILISATEUR WHERE USERNAME = '$login'";
-    $dbPwd = $myDb->getPDO()->query($sql)->fetch(PDO::FETCH_ASSOC)['PASS'];
+    $sql = "SELECT PASS, IS_ADMIN, DATE_INSCRIPTION FROM UTILISATEUR WHERE USERNAME = '$login'";
+    $user = $myDb->getPDO()->query($sql)->fetchAll()[0];
 
 
-    if (!password_verify($pwd, $dbPwd)) {
-        echo 'MAUVAIS MDP';
-        $invalidPWD = true;
+    if (!password_verify($pwd, $user['PASS'])) {
+        $_SESSION['invalidPWD'] = true;
         $_GET['url'] = 'index';
         header('Location: ../../index.php');
     } else {/*
@@ -28,8 +27,10 @@
         foreach ($result as $row) {
             $_SESSION['currentUser'] = new User ($row['USERNAME'], $row['IS_ADMIN'], $row['DATE_INSCRIPTION']);
         }*/
-        $_SESSION['currentUser'] = serialize(new User ($login, TRUE, 2020));
-        echo 'PAS MAUVAIS MDP';
+        $_SESSION['currentUser'] = serialize(new User ($login, $user['IS_ADMIN'], $user['DATE_INSCRIPTION']));
+        $_SESSION['userUsername'] = serialize($login);
+        $_SESSION['userAdminStatus'] = serialize($user['IS_ADMIN']);
+        $_SESSION['userDate'] = serialize($user['DATE_INSCRIPTION']);
 
         $_GET['url'] = 'index';
         header('Location: ../../index.php');

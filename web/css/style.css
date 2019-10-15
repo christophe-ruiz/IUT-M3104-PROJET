@@ -146,6 +146,10 @@ h1, h2, h3, p, a, span, label, input {
     align-items: center;
 }
 
+.headerRightDiv>span {
+    font-size: 2vw;
+}
+
 .headerRightDiv>a {
     text-decoration: none;
     font-size: 1.3vw;
