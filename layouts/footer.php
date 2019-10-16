@@ -9,12 +9,12 @@
 
     <div class="divfooter">
 
-        <p> Copyright 2019 </p>
+        <h3> Copyright 2019 </h3>
         <img src="web/img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImgfooter">
     </div>
 
     <div class="divfooter divfooterdroit">
-        <a href="#"> <img src="web/img/help.png" alt="aide" title="Aide" class="help"> </a>
+        <a href="aide.php"> <img src="web/img/help.png" alt="aide" title="Aide" class="help"> </a>
         <a href="#"> <img src="web/img/flechehaut.png" alt="flecheverslehaut" title="Haut de la page" class="flechehaut"> </a>
     </div>
 

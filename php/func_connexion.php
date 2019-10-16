@@ -10,7 +10,7 @@
     $pwd = $_POST['pwd'];
 
     $myDb = new Database();
-    $sql = "SELECT PASS, IS_ADMIN, DATE_INSCRIPTION FROM UTILISATEUR WHERE USERNAME = '$login'";
+    $sql = "SELECT PASS, IS_ADMIN, DATE_INSCRIPTION FROM UTILISATEUR WHERE USERNAME LIKE '$login'";
     $user = $myDb->getPDO()->query($sql)->fetchAll()[0];
 
 

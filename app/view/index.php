@@ -1,4 +1,4 @@
-    <div id="divconnexion">
+    <div id="divconnexion" style="visibility: hidden">
         <h3> Connexion </h3><br>
         <form method="POST" id="form" action="../../php/func_connexion.php">
             <label>Nom utilisateur :</label><br>
@@ -14,7 +14,7 @@
         </form>
     </div>
 
-    <div id="divinscription">
+    <div id="divinscription" style="visibility: hidden">
         <h3> Inscription </h3><br>
         <form method="POST" id="form" action="../../php/func_inscription.php">
             <label>Nom utilisateur :</label><br>

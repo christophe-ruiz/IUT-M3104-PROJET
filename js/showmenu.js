@@ -1,22 +1,33 @@
 function showmenu() {
-    var y = document.getElementById('divconnexion');
-    var x = document.getElementById('divinscription');
-    if (y.style.visibility == 'hidden') {
-        y.style.visibility = 'visible';
-        x.style.visibility = 'hidden';
-    } else {
-        y.style.visibility = 'hidden';
+
+    var divcon = document.getElementById('divconnexion');
+    var divinsc = document.getElementById('divinscription');
+
+    if (divcon.style.visibility == 'hidden') {
+
+        divcon.style.visibility = 'visible';
+        divinsc.style.visibility = 'hidden';
     }
+    else if (divcon.style.visibility == 'visible' )
+    {
+        divcon.style.visibility = 'hidden';
+    }
+
+
 }
 
 function showmenu2() {
-    var y = document.getElementById('divconnexion');
-    var x = document.getElementById('divinscription');
-    if (x.style.visibility == 'hidden') {
-        x.style.visibility = 'visible';
-        y.style.visibility = 'hidden';
+
+    var divcon = document.getElementById('divconnexion');
+    var divinsc = document.getElementById('divinscription');
+
+    if (divinsc.style.visibility == 'visible' ) {
+
+        divinsc.style.visibility = 'hidden';
     }
-    else {
-        x.style.visibility = 'hidden';
+    else if (divinsc.style.visibility == 'hidden')
+    {
+        divinsc.style.visibility = 'visible';
+        divcon.style.visibility = 'hidden';
     }
 }
