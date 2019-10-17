@@ -29,7 +29,7 @@ function mainView() {
     echo <<<EOT
 <nav class="corps">
         <h2> Les Topics du jour </h2>
-        <article class="topic">
+        <article class="topic2">
             <span> 1er message: </span>
             <p> Lorem ipsum dolor sit amet,</p>
             <p> user **** - </p>
