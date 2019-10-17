@@ -29,7 +29,7 @@ L'ensemble des identifiants de connexion :
         Host : 91.216.107.164  Identifiant : cruiz1237388     Mot de passe : bdni8pqery           
       de l’hébergement ;  
   
-  Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                  
+  Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                   
 
 # IUT-M3104-PROJET
 Projet du module M3104, S3 du DUT Informatique.
