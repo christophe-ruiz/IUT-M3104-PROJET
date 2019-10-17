@@ -32,8 +32,8 @@ function mainView() {
         <article class="topic2">
             <span> 1er message: </span>
             <p> Lorem ipsum dolor sit amet,</p>
-            <p> user **** > </p>
-            <img src="../web/img/heart.png" alt="Aime" class="heart"
+            <p> user **** -> </p>
+            <img src="../web/img/heart.png" alt="Aime" class="heart">
             <div class="espace"> </div>
         </article></nav>
 EOT;

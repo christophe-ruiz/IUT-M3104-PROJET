@@ -240,8 +240,8 @@ form>imput{
 }
 
 .heart {
-    height: 10vh;
-    width: 10vh;
+    height: 6vh;
+    width: 6vh;
     border-radius: 1vh;
     background: rgba(0, 0, 0, 0.2);
     margin-bottom: 0.75%;
@@ -249,7 +249,7 @@ form>imput{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 85%;
+
 }
 
 .espace{
