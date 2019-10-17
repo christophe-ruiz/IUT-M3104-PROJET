@@ -27,12 +27,12 @@ EOT;
 }
 function mainView() {
     echo <<<EOT
-<nav class="corps">
+<nav class="corps2">
         <h2> Les Topics du jour </h2>
         <article class="topic2">
             <span> 1er message: </span>
             <p> Lorem ipsum dolor sit amet,</p>
-            <p> user **** - </p>
+            <p> user **** > </p>
         </article>
         <article class="topic">
             <span> Message recent </span>
