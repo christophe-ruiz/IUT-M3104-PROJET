@@ -4,7 +4,7 @@ Nom : Steffen Alvarez Thomas Rippol Christophe Ruiz Alexis Vatin
 
 URL du site : http://iut.cruiz.fr/
 
-Présentation du projet : 
+Présentation du projet :  
   Rôles :
    Super Admin : Peut lire creer modifier ou supprimer un/des message(s) ou une/des discussion(s) ouverte(nt) par les membres. Un super admin à une page avec une distinction par rapport a celle des membres : ADMIN ecrit en haut de la page. 
        
