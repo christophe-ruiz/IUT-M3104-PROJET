@@ -12,7 +12,7 @@ URL du site : http://iut.cruiz.fr/
     
     * Visiteurs : Il peut seulement lire les discussions ouvertes précedemment par les utilisateurs.  
     
-o Les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;  
+o Les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;   
 
 Configuration logicielle minimale : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core 2 Duo 2,6 Ghz - RAM 2 Gb - Nvdia gtx 460 1 Go ou équivalente - 1Go dans le disque.  
 
