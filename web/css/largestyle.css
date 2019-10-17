@@ -248,7 +248,7 @@ input[type="Submit"]{
 }
 
 .logoImg {
-    height:90%;
+    height:100%;
     width: auto;
 }
 
@@ -294,4 +294,16 @@ input[type="Submit"]{
 
 .separator {
     border: #101820 solid 0.1vw;
+}
+
+.topicBox {
+    width: 20%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+.topicView {
+    width: 80%
 }

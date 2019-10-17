@@ -1,5 +1,7 @@
-<?php
-if (isset($_SESSION['currentUser'])) {
-    echo 'User :' . PHP_EOL;
-    var_dump($_SESSION['currentUser']);
-} else echo 'pas connecté';
+<?php require_once 'app/model/board.php'; ?>
+<div class="topicBox">
+    <?php placeMessages() ?>
+</div>
+<div class="topicView">
+
+</div>

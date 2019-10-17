@@ -25,6 +25,8 @@
     <?php
         if (!isset($_SESSION['currentUser'])) require_once 'presentation.php';
         else require_once 'mostLiked.php';
+        require_once 'app/view/index.php';
     ?>
+    <a href="../index.php?url=board"> MESSAGE </a>
 
 </main>

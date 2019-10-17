@@ -1,6 +1,6 @@
 <?php
     function compteMots ($string) {
-        return str_word_count(explode (' ', trim($string)));
+        return str_word_count(trim($string));
     }
 
 /**

@@ -1,3 +1,4 @@
+
 <footer class="bottomFooter">
     <div class="divfooter">
         <img src = "web/img/logogithub.png" alt="LogoGitHub" class="logogithub" title="Thomas RIPPOL" >

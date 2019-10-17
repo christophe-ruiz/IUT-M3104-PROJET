@@ -16,7 +16,7 @@
     <header class="topHeader">
         <?= $adminStatus ?>
         <div class="headerLeftDiv">
-            <img src="web/img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg"></a>
+            <a href="../index.php" class="logoImg"><img src="web/img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg"></a>
         </div>
         <div class="headerCenterDiv"> </div>
         <?= $topRight ?>
