@@ -33,17 +33,7 @@ function mainView() {
             <span> 1er message: </span>
             <p> Lorem ipsum dolor sit amet,</p>
             <p> user **** > </p>
-        </article>
-        <article class="topic">
-            <span> Message recent </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>
-        <article class="topic">
-            <span> Tichop </span>
-            <p> Salut FreeNote </p>
-            <p> Voir plus > </p>
-        </article>    </nav>
+        </article></nav>
 EOT;
 
 }
