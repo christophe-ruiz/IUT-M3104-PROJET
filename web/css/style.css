@@ -146,24 +146,6 @@ form>imput{
 
 }
 
-.corps {
-    height: 100%;
-    width: 46.95vw;
-    padding: 2.5% 1%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.corps2 {
-    height: 100%;
-    width: 46.95vw;
-    padding: 6% 25%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .corps2 {
     height: 100%;
@@ -235,7 +217,7 @@ form>imput{
     font-size: 1.25vw;
 }
 
-.topic {
+.topic2 {
     height: 10vh;
     width: 66.66%;
     border-radius: 1vh;
