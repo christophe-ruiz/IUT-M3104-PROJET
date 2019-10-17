@@ -19,7 +19,7 @@ URL du site : http://iut.cruiz.fr/
 
 * Configuration logicielle conseillée : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core i5 2.8 Ghz - RAM 8 GB  -  Nvidia GTX 660 or AMD Radeon HD 7870 equivalent DX11 GPU, 2 GByte VRA.  
 
-* L'ensemble des identifiants de connexion :    
+* L'ensemble des identifiants de connexion :
     * Compte test :   
         * Identidiant : guest  
         * Mot de passe : guest    
