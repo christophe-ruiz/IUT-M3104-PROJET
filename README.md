@@ -6,11 +6,11 @@ URL du site : http://iut.cruiz.fr/
 
 Présentation du projet : 
   Rôles :
-    Super Admin : Peut lire creer modifier ou supprimer un/des message(s) ou une/des discussion(s) ouverte(nt) par les membres. Un super admin à une page avec une distinction par rapport a celle des membres : ADMIN ecrit en haut de la page. 
+   Super Admin : Peut lire creer modifier ou supprimer un/des message(s) ou une/des discussion(s) ouverte(nt) par les membres. Un super admin à une page avec une distinction par rapport a celle des membres : ADMIN ecrit en haut de la page. 
        
-    Membres : Il peut créer et lire des topics. Un membre peut modifier son message une seule fois et ne peut intervenir qu'une seule fois dans un message mais n'a pas de restriction sur le nombre de message qu'il peut écrire (la discussion sera fermée si la condition est remplie, ici 50 messages différents). Un membre peut editer son profil, son mot de passe etc. 
+   Membres : Il peut créer et lire des topics. Un membre peut modifier son message une seule fois et ne peut intervenir qu'une seule fois dans un message mais n'a pas de restriction sur le nombre de message qu'il peut écrire (la discussion sera fermée si la condition est remplie, ici 50 messages différents). Un membre peut editer son profil, son mot de passe etc. 
     
-    Visiteurs : Il peut seulement lire les discussions ouvertes précedemment par les utilisateurs.
+   Visiteurs : Il peut seulement lire les discussions ouvertes précedemment par les utilisateurs.
     
 o les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;
 Configuration logicielle minimale : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core 2 Duo 2,6 Ghz - RAM 2 Gb - Nvdia gtx 460 1 Go ou équivalente - 1Go dans le disque.
