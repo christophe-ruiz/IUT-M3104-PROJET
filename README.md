@@ -13,21 +13,20 @@ URL du site : http://iut.cruiz.fr/
     
     * Visiteurs : Il peut seulement lire les discussions ouvertes précedemment par les utilisateurs.  
     
-o Les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;   
+* Les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;   
 
-Configuration logicielle minimale : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core 2 Duo 2,6 Ghz - RAM 2 Gb - Nvdia gtx 460 1 Go ou équivalente - 1Go dans le disque.  
+* Configuration logicielle minimale : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core 2 Duo 2,6 Ghz - RAM 2 Gb - Nvdia gtx 460 1 Go ou équivalente - 1Go dans le disque.  
 
-Configuration logicielle conseillée : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core i5 2.8 Ghz - RAM 8 GB  -  Nvidia GTX 660 or AMD Radeon HD 7870 equivalent DX11 GPU, 2 GByte VRA.  
+* Configuration logicielle conseillée : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core i5 2.8 Ghz - RAM 8 GB  -  Nvidia GTX 660 or AMD Radeon HD 7870 equivalent DX11 GPU, 2 GByte VRA.  
 
-L'ensemble des identifiants de connexion :  
-   du site Web (au minimum un compte de test et un d’administration) :  
-      Compte test :   
-        Identidiant : guest   Mot de passe : guest
-      Compte Admin :   
-        Identifiant : admin   Mot de passe : root  
-      Base de données   
-        Host : 91.216.107.164  Identifiant : cruiz1237388     Mot de passe : bdni8pqery           
-      de l’hébergement ;  
+* L'ensemble des identifiants de connexion :    
+    * Compte test :   
+        1. Identidiant : guest   2. Mot de passe : guest
+    * Compte Admin :   
+        1. Identifiant : admin   2. Mot de passe : root  
+    * Base de données   
+        1. Host : 91.216.107.164  2. Identifiant : cruiz1237388     3. Mot de passe : bdni8pqery           
+    * de l’hébergement ;  
   
   Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                   
 
