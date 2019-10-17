@@ -35,4 +35,4 @@ URL du site : http://iut.cruiz.fr/
   Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                   
 
 # IUT-M3104-PROJET
-Projet du module M3104, S3 du DUT Informatique.
+Projet du module M3104, S3 du DUT Informatique.  
