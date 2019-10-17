@@ -239,3 +239,14 @@ form>imput{
     border: #101820 solid 0.1vw;
 }
 
+.heart {
+    height: 100vh;
+    width: 66.66%;
+    border-radius: 1vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.75%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
