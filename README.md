@@ -21,9 +21,11 @@ URL du site : http://iut.cruiz.fr/
 
 * L'ensemble des identifiants de connexion :    
     * Compte test :   
-        1. Identidiant : guest     2. Mot de passe : guest  
+        * Identidiant : guest  
+        * Mot de passe : guest    
     * Compte Admin :   
-        1. Identifiant : admin     2. Mot de passe : root    
+        * Identifiant : admin    
+        * Mot de passe : root     
     * Base de données   
         * Host : 91.216.107.164  
         * Identifiant : cruiz1237388    
