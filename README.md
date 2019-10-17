@@ -1,6 +1,6 @@
 # Projet PHP M3104
 
-Nom : Steffen Alvarez Thomas Rippol Christophe Ruiz Alexis Vatin
+Noms : Steffen Alvarez Thomas Rippol Christophe Ruiz Alexis Vatin
 
 URL du site : http://iut.cruiz.fr/
 
@@ -38,5 +38,4 @@ URL du site : http://iut.cruiz.fr/
   
   Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                   
 
-# IUT-M3104-PROJET
-Projet du module M3104, S3 du DUT Informatique.  
+## IUT-M3104-PROJET
