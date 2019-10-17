@@ -36,6 +36,6 @@ URL du site : http://iut.cruiz.fr/
         
     * de l’hébergement ;  
   
-  Compte du ststème de version : christophe-ruiz / IUT-M3104-PROJET                   
+  Compte du ststème de version : https://github.com/christophe-ruiz/IUT-M3104-PROJET                   
 
 ## IUT-M3104-PROJET
