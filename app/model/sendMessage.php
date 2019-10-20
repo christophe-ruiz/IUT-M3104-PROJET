@@ -15,4 +15,4 @@
 
     $sql = "INSERT INTO MESSAGE (CONTENU, USERNAME, NB_MOTS, ID_PERE) VALUES ('$message', '$user', '$nb_mots', '$id')";
     $myDb->getPdo()->prepare($sql)->execute();
-    header("Location: ../../index.php?url=discussion&id=$id");
+    header("Location: ../../index.php?url=board&id=$id");

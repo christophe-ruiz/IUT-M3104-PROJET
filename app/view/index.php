@@ -9,7 +9,7 @@
             <br><br>
             <a href=""> Mot de passe oublié ? </a>
             <br><br>
-            <input type="Submit" name="action" value="connexion">
+            <input class="submitSign" type="Submit" name="action" value="connexion">
 
         </form>
     </div>
@@ -29,6 +29,6 @@
             <label>Mail</label><br>
             <input type="text" name="mail">
             <br><br>
-            <input type="Submit" name="action" value="inscription">
+            <input class="submitSign" type="Submit" name="action" value="inscription">
         </form>
     </div>
