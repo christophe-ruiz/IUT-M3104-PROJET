@@ -9,7 +9,12 @@
             require_once 'layouts/mainView.php';
             break;
         case 'board':
+            require_once 'app/model/board.php';
             require_once 'app/view/board.php';
+            break;
+        case 'discussion':
+            require_once 'app/model/discussion.php';
+            require_once 'app/view/discussion.php';
         default:
             break;
     }

@@ -3,23 +3,24 @@
 
     function messages() {
         $myDb = new Database('config/dbCredentials.ini');
-        $sql = "SELECT * FROM MESSAGE";
+        $sql = "SELECT * FROM MESSAGE WHERE ID_PERE IS NULL";
         $stmt = $myDb->getPDO()->prepare($sql);
         $stmt->execute();
         $result = $stmt->fetchAll();
         return $result;
     }
-    $_SESSION['discussionId'] = serialize(1);
 
     function placeMessages() {
         $messages = messages();
-        foreach ($messages as $message) {
-            echo <<<EOT
-    <article class="topic">
-            <span> {$message['USERNAME']} </span>
-            <p> {$message['CONTENU']} </p>
-            <p> Voir plus > </p>
-        </article>
-EOT;
+        foreach ($messages as $message) { ?>
+    <article class="topicRoll">
+            <span> <?= $message['USERNAME'] ?> </span>
+            <p> <?= $message['CONTENU'] ?> </p>
+            <a href="index.php?url=board&id=<?= $message['ID'] ?>"> ➤ </a>
+        </article> <?php
         }
+    }
+
+    function getMostLiked() {
+
     }
