@@ -36,7 +36,6 @@ URL du site : http://iut.cruiz.fr/
         * Identifiant : cruiz1237388    
         * Mot de passe : bdni8pqery         
         
-    * de l’hébergement ;  
    
 Compte du ststème de version : https://github.com/christophe-ruiz/IUT-M3104-PROJET                   
 
