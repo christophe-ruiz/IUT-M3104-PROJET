@@ -41,6 +41,10 @@ h1, h2, h3, p, a, span, label, input {
     border: 0.11vw solid #101820;
 }
 
+.error {
+    border : red 1px solid;
+}
+
 .sign{
     text-decoration: none;
     color: floralwhite;

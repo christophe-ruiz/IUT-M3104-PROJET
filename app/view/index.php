@@ -1,34 +1,28 @@
     <div id="divconnexion" style="visibility: hidden">
-        <h3> Connexion </h3><br>
+        <h3> Connexion </h3>
         <form method="POST" id="form" action="../../php/func_connexion.php">
-            <label>Nom utilisateur :</label><br>
+            <label>Nom utilisateur :</label>
             <input type="text" name="login">
-            <br><br>
-            <label>Mot de passe :</label><br>
+            <label>Mot de passe :</label>
             <input type="password" name="pwd">
-            <br><br>
             <a href=""> Mot de passe oublié ? </a>
-            <br><br>
             <input class="submitSign" type="Submit" name="action" value="connexion">
 
         </form>
     </div>
 
     <div id="divinscription" style="visibility: hidden">
-        <h3> Inscription </h3><br>
+        <h3> Inscription </h3>
         <form method="POST" id="form" action="../../php/func_inscription.php">
-            <label>Nom utilisateur :</label><br>
+            <label>Nom utilisateur :</label>
             <input type="text" name="login">
-            <br><br>
-            <label>Mot de passe :</label><br>
+            <label>Mot de passe :</label>
             <input type="password" name="pwd">
-            <br><br>
-            <label>Vérification mot de passe :</label><br>
+            <label>Vérification mot de passe :</label>
             <input type="password" name="vpwd">
-            <br><br>
-            <label>Mail</label><br>
-            <input type="text" name="mail">
-            <br><br>
+            <label>Mail</label>
+            <input <?php if ($_SESSION['mailError']) echo 'class="error"' ?> type="text" name="mail">
             <input class="submitSign" type="Submit" name="action" value="inscription">
         </form>
+
     </div>

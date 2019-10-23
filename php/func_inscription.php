@@ -16,18 +16,19 @@
 
     if ($checkIfExist != 0) {
         $_SESSION['signUpError'] = TRUE;
-        $_GET['url'] = 'index';
-        header('Location: ../../index.php');
-    } else if ($pwd != $vpwd) {
-        $validPWD = false;
-        $_SESSION['validPWD'] = $validPWD;
-    } else {
+    }
+    if ($pwd != $vpwd) {
+        $_SESSION['pwdError'] = TRUE;
+    }
+    if (!preg_match('/^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/', $mail)){
+        $_SESSION['mailError'] = TRUE;
+    }
+    else {
         $pwd = password_hash($pwd, PASSWORD_DEFAULT);
         $_SESSION['validPWD'] = $validPWD;
 
         $sql = "INSERT INTO UTILISATEUR VALUES ('$login', '$mail', '$pwd', NOW(), FALSE, 0)";
         $myDb->getPDO()->prepare($sql)->execute();
-
-        $_GET['url'] = 'index';
-        header('Location: ../../index.php');
     }
+    $_GET['url'] = 'index';
+    header('Location: ../../index.php');
