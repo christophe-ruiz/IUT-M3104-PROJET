@@ -18,6 +18,13 @@
         <div class="headerLeftDiv">
             <a href="../index.php" class="logoImg"><img src="web/img/freenote-logo.png" alt="Free Note, un forum normaux avec des gens normal :)" class="logoImg"></a>
         </div>
-        <div class="headerCenterDiv"> </div>
+        <div class="headerCenterDiv">
+            <?php if ($_SESSION['too_much_words']) {
+                ?>
+                <p class="error"> Le nombre de mots est trop élevé, <br> réessayez avec 2 mots maximum </p>
+            <?php
+                unset($_SESSION['too_much_words']);
+            } ?>
+        </div>
         <?= $topRight ?>
     </header>

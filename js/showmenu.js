@@ -31,3 +31,9 @@ function showmenu2() {
         divcon.style.visibility = 'hidden';
     }
 }
+
+function showNewTopicForm() {
+    let topic = document.getElementById('newTopic');
+    if (topic.style.visibility == 'visible') topic.style.visibility = 'hidden';
+    else topic.style.visibility = 'visible';
+}

@@ -11,3 +11,7 @@
     function clean($string) {
         return htmlspecialchars(trim($string));
     }
+
+    function like() {
+
+    }

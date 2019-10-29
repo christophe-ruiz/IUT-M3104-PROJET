@@ -41,10 +41,6 @@ h1, h2, h3, p, a, span, label, input {
     border: 0.11vw solid #101820;
 }
 
-.error {
-    border : red 1px solid;
-}
-
 .sign{
     text-decoration: none;
     color: floralwhite;
@@ -308,21 +304,25 @@ input[type="text"]{
 .topicBox {
     width: 29.5%;
     height: 98.5%;
-    overflow: hidden;
+    overflow-y: scroll;
 
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
     margin: 0.25%;
 }
 
 .topicView {
+    height: 90%;
+    width: 100%;
 }
 
 .timeline {
     display: flex;
     flex-direction: column;
     align-self: center;
+    width: 99%;
+    height: 95%;
+    overflow-y: scroll;
 }
 
 .newText {
@@ -339,6 +339,7 @@ input[type="text"]{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0.30vw 0;
 }
 
 .discussion>div>p, .discussion>div>a {
@@ -346,16 +347,24 @@ input[type="text"]{
     padding: 0;
 }
 
+.topicId {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
 .discussionId {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 10vw;
+    width: 50%;
 }
 
 .discussionInfo {
     display: flex;
     flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
 }
 
 .messageSum, .messageBox {
@@ -390,14 +399,22 @@ input[type="text"]{
     align-items: center;
 }
 
+.topicRoll :nth-child(n) {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .topicBoard {
     display: flex;
     height: 67.75%;
 }
 
 .messageSum {
-    padding: 0 2vw;
-    width: 94.25%;
+    padding: 0 1.75vw;
+    width: 95%;
 }
 
 .messageSum>p {
@@ -405,8 +422,11 @@ input[type="text"]{
 }
 
 .composer {
-    align-items: flex-end;
-    height: 2.5vw;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .topicMain {
@@ -416,4 +436,40 @@ input[type="text"]{
     width: 69.5%;
     height: 99.5%;
     margin: 0.25%;
+    align-items: center;
+}
+
+#newTopic {
+    position: absolute;
+    background: white;
+    width: 50%;
+    height: 50%;
+    border: solid 1px black;
+    border-radius: 2vw;
+    left: 25%;
+    top: 25%;
+}
+
+.createTopic {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createTopic :nth-child(n) {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 2vw;
+    background: #101820;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 1.5vw;
 }
