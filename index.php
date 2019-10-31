@@ -20,6 +20,10 @@
         case 'discussion':
             require_once 'app/model/discussion.php';
             require_once 'app/view/discussion.php';
+            break;
+        case 'admin':
+            require_once 'app/model/adminPanel.php';
+            require_once 'app/view/adminPanel.php';
         default:
             break;
     }

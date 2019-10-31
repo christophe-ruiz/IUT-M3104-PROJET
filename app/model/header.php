@@ -1,7 +1,7 @@
 <?php
     $adminStatus = '';
     if(isset($_SESSION['currentUser']) && unserialize($_SESSION['currentUser'])->getAdminStatus())
-        $adminStatus = '<span class = "adminStatus"> admin </span>';
+        $adminStatus = '<a href="?url=admin" class = "adminStatus"> admin </a>';
 
     $topRight = <<<EOT
     <div class="headerRightDiv">

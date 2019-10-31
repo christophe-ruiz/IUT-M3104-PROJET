@@ -2,6 +2,10 @@
     <div class="messageSum">
         <p> <?= messageSum($result) ?> </p>
     </div>
+    <div class="likeBtn">
+        <p> <?= likeCount($_GET['id']) ?> </p>
+        <a href="" onclick="like()"> 🤍 </a>
+    </div>
     <nav class="timeline">
         <?php showTimeline($result) ?>
     </nav>

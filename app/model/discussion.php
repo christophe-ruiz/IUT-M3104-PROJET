@@ -18,6 +18,14 @@
         return $messageSum;
     }
 
+    function likeCount($id) {
+        $myDb = new Database('config/dbCredentials.ini');
+        $sql = "SELECT * FROM LIKES WHERE ID = $id";
+        $stmt = $myDb->getPDO()->prepare($sql);
+        $stmt->execute();
+        return $stmt->rowCount();
+    }
+
     function showTimeline($result) {
         foreach ($result as $message) {
             $author = $message['USERNAME'];
@@ -26,9 +34,9 @@
             $id = $message['ID'];
             $discussion = new Message($id, $author, $date, $words); ?>
 <article class="discussion">
-        <div class="likeBtn">
-            <a> 🤍 </a>
-        </div>
+        <?php if (unserialize($_SESSION['userAdminStatus'])) { ?>
+        <a href="" class="delete"> 🗑️ </a>
+        <?php } ?>
         <div class="topicId">
             <p> <?= $discussion->getId() ?> </p>
         </div>
