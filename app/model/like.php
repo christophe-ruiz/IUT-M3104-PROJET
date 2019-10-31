@@ -1,5 +1,5 @@
 <?php
-    if ($_GET['like'] == 'like') {
+    if ($_POST['like'] == 'like') {
         $myDb = new Database('config/dbCredentials.ini');
         $id = $_GET['id'];
         $login = unserialize($_SESSION['userUsername']);

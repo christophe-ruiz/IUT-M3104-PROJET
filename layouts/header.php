@@ -9,6 +9,7 @@
     <title>FreeNote</title>
     <link rel="stylesheet" href="web/css/style.css">
     <link rel="stylesheet" media="screen and (min-width: 1100px)" href="web/css/largestyle.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/showmenu.js"></script>
     <script type="text/javascript" src="js/like.js"></script>
 </head>

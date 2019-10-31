@@ -529,3 +529,14 @@ input[type="text"]{
 .type {
     font-size: 2vw;
 }
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting>input {
+    width: 4vw;
+}

@@ -1,11 +1,9 @@
 function like() {
     $.ajax({
         method: "POST",
-        url: 'app/model/like.php',
-        data: {like:'like', id:''},
-        success:function(html) {
-            alert(html);
-        },
+        url: '',
+        data: {like:'like'},
+        success:function(html) {},
         error:function (){}
     });
 }

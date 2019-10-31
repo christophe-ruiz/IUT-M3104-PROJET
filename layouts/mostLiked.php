@@ -2,7 +2,7 @@
     <h2> Les plus aimés</h2>
     <?php
     $myDb = new Database('config/dbCredentials.ini');
-    $sql = "SELECT * FROM MESSAGE ORDER BY LIKES DESC, DATE_ENVOI DESC LIMIT 5";
+    $sql = "SELECT * FROM MESSAGE WHERE ID IN (SELECT ID FROM LIKES GROUP BY ID ORDER BY COUNT(*) DESC ) AND ID_PERE IS NULL LIMIT 5";
     $stmt = $myDb->getPDO()->prepare($sql);
     $stmt->execute();
     $result = $stmt->fetchAll();

@@ -7,6 +7,9 @@
         if (!isset($_SESSION['currentUser'])) $_GET['url'] = 'index';
         else $_GET['url'] = 'board';
     }
+    if($_POST['like']) {
+        require_once 'app/model/like.php';
+    }
     //require 'core/routes.php';
     switch ($_GET['url']) {
         case 'index':
@@ -24,6 +27,10 @@
         case 'admin':
             require_once 'app/model/adminPanel.php';
             require_once 'app/view/adminPanel.php';
+            break;
+        case 'profile':
+            require_once 'app/model/profile.php';
+            require_once 'app/view/profile.php';
         default:
             break;
     }
