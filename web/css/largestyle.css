@@ -537,6 +537,10 @@ input[type="text"]{
     align-items: center;
 }
 
-.setting>input {
+.settingName {
+    font-size: 1.25vw;
+}
+
+.settingParam {
     width: 4vw;
 }
