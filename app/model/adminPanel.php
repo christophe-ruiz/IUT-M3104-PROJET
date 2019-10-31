@@ -6,17 +6,16 @@
         $stmt->execute();
         $result = $stmt->fetchAll(); ?>
         <article class="user">
-            <span> NOM </span>
-            <span> MAIL </span>
-            <span> DATE D'INSCRIPTION </span>
+            <span class="type"> NOM </span>
+            <span class="type"> MAIL </span>
+            <span class="type"> DATE D'INSCRIPTION </span>
         </article>
         <?php
-        var_dump($result);
         foreach ($result as $item) { ?>
             <article class="user <? if ($item['IS_ADMIN']) echo 'isAdmin'?>">
-                <span> <?php $item['USERNAME'] ?> </span>
-                <span> <?php $item['MAIL'] ?> </span>
-                <span> <?php $item['DATE_INSCRIPTION'] ?> </span>
+                <span> <?= $item['USERNAME'] ?> </span>
+                <span> <?= $item['MAIL'] ?> </span>
+                <span> <?= $item['DATE_INSCRIPTION'] ?> </span>
             </article>
 <?php
         }

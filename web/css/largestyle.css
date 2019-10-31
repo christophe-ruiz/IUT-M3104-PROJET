@@ -504,3 +504,28 @@ input[type="text"]{
     align-items: center;
     flex-direction: column;
 }
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: dotted 1px black;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+.user :nth-child(n) {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isAdmin {
+    color: red;
+}
+
+.type {
+    font-size: 2vw;
+}
