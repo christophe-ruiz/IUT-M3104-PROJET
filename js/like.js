@@ -3,7 +3,10 @@ function like() {
         method: "POST",
         url: '',
         data: {like:'like'},
-        success:function(html) {},
+        success:function(html) {
+            alert(html);
+            $('.likeCount').replaceWith(html);
+        },
         error:function (){}
     });
 }

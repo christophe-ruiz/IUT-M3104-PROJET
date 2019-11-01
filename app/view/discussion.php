@@ -3,7 +3,7 @@
         <p> <?= messageSum($result) ?> </p>
     </div>
     <div class="likeBtn">
-        <p> <?= likeCount($_GET['id']) ?> </p>
+        <p class="likeCount"> <?= likeCount($_GET['id']) ?> </p>
         <a onclick="like()"> 🤍 </a>
     </div>
     <nav class="timeline">

@@ -22,7 +22,9 @@
             break;
         case 'discussion':
             require_once 'app/model/discussion.php';
+            require_once 'app/model/like.php';
             require_once 'app/view/discussion.php';
+            if ($_POST['like']) require_once 'app/model/like.php';
             break;
         case 'admin':
             require_once 'app/model/adminPanel.php';

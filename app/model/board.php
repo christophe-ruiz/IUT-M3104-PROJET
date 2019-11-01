@@ -24,7 +24,7 @@
     function getMostLiked() {
 $myDb = new Database('config/dbCredentials.ini');
 $sql = "SELECT * FROM MESSAGE ORDER BY LIKES, DATE_ENVOI DESC LIMIT 5";
-$stmt = $myDb->getPDO()->prepare($sql);
+$stmt = $myDb->getPdo()->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll();
 
