@@ -1,50 +1,50 @@
 <?php
-    require_once 'php_func/utils.pages.php';
-    my_header(); ?>
-
-
-    <div id="divconnexion">
-        <h3> Connexion </h3><br>
-        <form method="" id="form" action="">
-            <label>Nom utilisateur :</label><br>
-            <input type="text" name="username">
-            <br><br>
-            <label>Mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <a href=""> Mot de passe oublié ? </a>
-            <br><br>
-            <input type="Submit" value="Validation">
-
-        </form>
-    </div>
-
-    <div id="divinscription">
-        <h3> Inscription </h3><br>
-        <form method="" id="form" action="">
-            <label>Nom utilisateur :</label><br>
-            <input type="text" name="username">
-            <br><br>
-            <label>Mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Vérification mot de passe :</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Age</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <label>Sexe</label><br>
-            <input type="password" name="password">
-            <br><br>
-            <a href=""> Mot de passe oublié ? </a>
-            <br><br>
-            <input type="Submit" value="Validation">
-
-        </form>
-    </div>
-
-<?php
-    mainView();
-    my_footer();
-                    ?>
+    require_once 'core/autoloader.php';
+    session_start();
+    $settings = parse_ini_file('config/rules.ini',TRUE);
+    $maxMSG = $settings['Topic']['max_messages'];
+    $_SESSION['maxMSG'] = serialize($maxMSG);
+    require_once 'layouts/header.php';
+    if ($_GET['id'] == 'NULL') unset($_GET['id']);
+    if (!isset($_GET['url'])) {
+        if (!isset($_SESSION['currentUser'])) $_GET['url'] = 'index';
+        else $_GET['url'] = 'board';
+    }
+    if ($_POST['like']) {
+        require_once 'app/model/like.php';
+    }
+    if ($_POST['delete']) {
+        require_once 'app/model/delete.php';
+    }
+    if (isset($_POST['userDeletion'])) {
+        require_once 'app/model/userDeletion.php';
+    }
+    if (isset($_POST['changeStatus'])) {
+        require_once 'app/model/changeStatus.php';
+    }
+    var_dump($_SESSION);
+    //require 'core/routes.php';
+    switch ($_GET['url']) {
+        case 'index':
+            require_once 'layouts/mainView.php';
+            break;
+        case 'board':
+            require_once 'app/model/board.php';
+            require_once 'app/view/board.php';
+            require_once 'layouts/mainView.php';
+            break;
+        case 'discussion':
+            require_once 'app/model/discussion.php';
+            require_once 'app/view/discussion.php';
+            break;
+        case 'admin':
+            require_once 'app/model/adminPanel.php';
+            require_once 'app/view/adminPanel.php';
+            break;
+        case 'profile':
+            require_once 'app/model/profile.php';
+            require_once 'app/view/profile.php';
+        default:
+            break;
+    }
+    require_once 'layouts/footer.php';

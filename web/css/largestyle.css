@@ -1,0 +1,557 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: #101820;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+a:visited{
+    color: #101820;
+}
+
+h1, h2, h3, p, a, span, label, input {
+    font-family: 'Quicksand', sans-serif;
+    transition: 0s;
+}
+
+.sign:hover {
+    background: floralwhite;
+    color: #101820;
+    border: 0.11vw solid #101820;
+}
+
+.sign{
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 1vw;
+    cursor: pointer;
+
+    padding: 0.75vw 1.25vw;
+    border-radius: 1vw;
+    background: #101820;
+    border-radius: 1vw;
+    border: 0.11vw solid transparent;
+}
+
+.topHeader {
+    width: 100%;
+    height: 12%;
+    background: floralwhite;
+
+    box-shadow: 0 0 1em black;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bottomFooter {
+    width: 100%;
+    height: 20%;
+    background: white;
+    color: floralwhite;
+
+    display: flex;
+    align-items: center;
+}
+
+#divconnexion{
+    position: absolute;
+
+    width: 14vw;
+    height: 18vw;
+    top: 13vh;
+    right: 10vw;
+    left: auto;
+
+    border: #101820 solid 1px;
+    border-radius: 2vw;
+
+    background: #ffffff;
+    border: #101820 solid 1px;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#divinscription{
+    position: absolute;
+
+    width: 17vw;
+    height: 28vw;
+    top: 13vh;
+    right: 4vw;
+    left: auto;
+
+    background: #ffffff;
+    border: #101820 solid 1px;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.adminStatus {
+    font-size: 1vw;
+    color: red;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+input[type="password"]{
+    width: 90%;
+    height: 3vh;
+}
+
+input[type="text"]{
+    width: 90%;
+    height: 3vh;
+}
+
+.submitSign{
+    width: 60%;
+    height: 5vh;
+    margin-top: 1vh;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 35vh;
+}
+#form>label{
+    font-size: 1vw;
+}
+
+.divfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+
+.divfooter>h3{
+    font-size: 1.4vw;
+}
+
+.divfooter>a{
+    font-size: 1vw;
+}
+
+.divfooterdroit{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.corps>h2{
+    font-size: 3vw;
+}
+
+.corps {
+    width: 47.477vw;
+    padding: 2.5% 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation{
+    width: 66.66%;
+    border-radius: 1vh;
+    background: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    min-width: 5%;
+}
+
+.presentation>p{
+
+    padding: 0vh 2vw 0vh 2vw;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.headerRightDiv {
+    height: auto;
+    width : 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerRightDiv>a {
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.headerRightDiv>span {
+    font-size: 2vw;
+}
+
+.headerLeftDiv {
+    height: auto;
+    width: 30%;
+    padding: 0.5vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerCenterDiv {
+    height: auto;
+    width: 40%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoImg {
+    height:100%;
+    width: auto;
+}
+
+.logoImgfooter{
+    height: 10vh;
+    padding: 0 0 1vh 0;
+}
+
+.logogithub{
+    height: 8vh;
+    align-items: center;
+}
+
+.flechehaut{
+    height: 5vh;
+    padding: 0 3vw 0 5vw;
+}
+
+.help{
+    height: 5vh;
+}
+
+.topic>span, .topic>p {
+    font-size: 1.25vw;
+}
+
+.topic {
+    height: 10vh;
+    width: 66.66%;
+    border-radius: 1vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.75%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.splitter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.separator {
+    border: #101820 solid 0.1vw;
+}
+
+.topicBox {
+    width: 29.5%;
+    height: 98.5%;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0.25%;
+}
+
+.topicView {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 99%;
+    height: 88%;
+    overflow-y: scroll;
+}
+
+.newText {
+    width:auto;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.discussion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.30vw 0;
+}
+
+.discussion>div>p, .discussion>div>a {
+    margin: 0;
+    padding: 0;
+}
+
+.topicId {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.discussionId {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.discussionInfo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+}
+
+.messageSum, .messageBox {
+    display: flex;
+    justify-content: center;
+
+    background: #101820;
+    color: white;
+    border-radius: 2vw;
+
+    width: 100%;
+}
+
+.messageBox>textarea {
+    width: 90%;
+    resize: none;
+    background: #101820;
+    color: white;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.topicRoll {
+    height: 10vh;
+    width: 100%;
+    border-radius: 1vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 1%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topicRoll :nth-child(n) {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.topicBoard {
+    display: flex;
+    height: 67.75%;
+}
+
+.messageSum {
+    padding: 0 1.75vw;
+    width: 95%;
+    display: flex;
+}
+
+.messageSum>p {
+    margin: 0.25vw 0;
+}
+
+.composer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.topicMain {
+    display: flex;
+    flex-direction: column;
+
+    width: 69.5%;
+    height: 99.5%;
+    margin: 0.25%;
+    align-items: center;
+}
+
+#newTopic {
+    position: absolute;
+    background: white;
+    width: 50%;
+    height: 50%;
+    border: solid 1px black;
+    border-radius: 2vw;
+    left: 25%;
+    top: 25%;
+    padding: 2vw;
+}
+
+.createTopic {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createTopic :nth-child(n) {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 2vw;
+    background: #101820;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 1.5vw;
+}
+
+.likeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vw;
+    border-bottom: solid 1px black;
+    width: 99%;
+}
+
+.title {
+    width: 100%;
+    height: 10vh;
+    background: #101820;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: dotted 1px black;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+.user :nth-child(n) {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isAdmin {
+    color: red;
+}
+
+.type {
+    font-size: 2vw;
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingName {
+    font-size: 1.25vw;
+}
+
+.settingParam {
+    width: 4vw;
+}
+
+.topicDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
