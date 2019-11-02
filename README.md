@@ -41,6 +41,4 @@ Compte du système de version : https://github.com/christophe-ruiz/IUT-M3104-PRO
 
 NB : Les commit réalisés par l'utilisateur Alexis sont biaisés. En effet nous avons réaliser la plus grande du CSS avec le compte utilisateur Alexis mais pas sur le GITHUB du projet pour eviter les erreurs lors de la modification. Une fois tout fini, nous avons fusionner les 2 projets cependant le nombre de commit n'a pas suivi. Voici le lien pour vérifier : https://github.com/AlexisVatin/travailcss/graphs/contributors
 
-![CommitAlexis](/Bureau/Capture.png)
-Format: ![Alt Text](url)
 
