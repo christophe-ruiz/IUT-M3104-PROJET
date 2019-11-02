@@ -38,7 +38,7 @@ function changeStatus(id) {
     $.ajax({
         method: "POST",
         url: '',
-        data: {statusChange:1, user:id},
+        data: {changeStatus:1, user:id},
         success:function() {
             location.reload();
         },
