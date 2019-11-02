@@ -36,6 +36,6 @@ URL du site : http://iut.cruiz.fr/
         * Identifiant : cruiz1237388    
         * Mot de passe : bdni8pqery         
         
-   
-Compte du ststème de version : https://github.com/christophe-ruiz/IUT-M3104-PROJET                   
+Compte du système de version : https://github.com/christophe-ruiz/IUT-M3104-PROJET
 
+NB : Les commits réalisés par l'utilisateur Alexis sont biaisés. En effet nous avons réaliser la plus grande du CSS avec le compte utilisateur Alexis mais pas sur le GITHUB du projet pour éviter les erreurs lors de la modification. Une fois tout fini, nous avons fusionner les 2 projets cependant le nombre de commit n'a pas suivi. Voici le lien pour vérifier : https://github.com/AlexisVatin/travailcss/graphs/contributors
