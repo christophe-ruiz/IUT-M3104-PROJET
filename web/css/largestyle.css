@@ -156,7 +156,6 @@ input[type="text"]{
     font-size: 1vw;
 }
 
-
 .divfooter{
     display: flex;
     flex-direction: column;
@@ -199,6 +198,10 @@ input[type="text"]{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.delete {
+    min-width: 5%;
 }
 
 .presentation>p{
@@ -452,6 +455,7 @@ input[type="text"]{
     border-radius: 2vw;
     left: 25%;
     top: 25%;
+    padding: 2vw;
 }
 
 .createTopic {
@@ -543,4 +547,11 @@ input[type="text"]{
 
 .settingParam {
     width: 4vw;
+}
+
+.topicDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

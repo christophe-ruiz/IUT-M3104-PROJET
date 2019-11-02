@@ -17,7 +17,7 @@
         <article class="topic">
             <span> <?= $discussion->getAuthor() ?> </span>
             <p> <?= $discussion->getWords() ?> </p>
-            <p> ➤ </p>
+            <a href="index.php?url=board&id=<?= $discussion->getId() ?>"> ➤ </a>
         </article>
         <? } ?>
     </nav>

@@ -1,5 +1,5 @@
 <?php
-    if ($_POST['like'] == 'like') {
+    if ($_POST['like']) {
         $myDb = new Database('config/dbCredentials.ini');
         $id = $_GET['id'];
         $login = unserialize($_SESSION['userUsername']);
@@ -21,7 +21,6 @@
             $stmt = $myDb->getPdo()->prepare($sql);
             $stmt->execute();
         }
-        unset($_POST['like']);
+        unset($_POST['functions']);
     }
 ?>
-<p class="likeCount"> <?= likeCount($_GET['id']) ?> </p>

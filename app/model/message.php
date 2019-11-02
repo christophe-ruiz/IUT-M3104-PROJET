@@ -11,4 +11,3 @@
     function clean($string) {
         return htmlspecialchars(trim($string));
     }
-
