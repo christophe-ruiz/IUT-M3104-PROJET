@@ -7,17 +7,19 @@ class Message
     private $author;
     private $words;
     private $date;
+    private $statut;
 
-    public function __construct($id, $author, $date, $words)
+    public function __construct($id, $author, $date, $words, $statut)
     {
         $this->id = $id;
         $this->author = $author;
         $this->date = $date;
         $this->words = $words;
+        $this->statut = $statut;
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getAuthor()
     {
@@ -33,7 +35,7 @@ class Message
     }
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getId()
     {
@@ -41,11 +43,19 @@ class Message
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getWords()
     {
         return $this->words;
+    }
+
+    /**
+     * @return bool
+     */
+    public function getStatut()
+    {
+        return $this->statut;
     }
 
 }

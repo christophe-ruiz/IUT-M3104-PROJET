@@ -22,6 +22,19 @@ function deleteMsg(id, hardDelete) {
     });
 }
 
+function modifyMsg(id) {
+    $.ajax({
+        method: "POST",
+        url: '',
+        data: {modify:'1', modId:id},
+        success:function() {
+            location.reload();
+        },
+        error:function (){
+        }
+    });
+}
+
 function deleteUser(id) {
     $.ajax({
         method: "POST",

@@ -200,6 +200,10 @@ input[type="text"]{
     min-width: 5%;
 }
 
+.modifie {
+    color: #006EB3;
+}
+
 .presentation>p{
 
     padding: 0vh 2vw 0vh 2vw;
@@ -443,7 +447,7 @@ input[type="text"]{
     align-items: center;
 }
 
-#newTopic {
+#newTopic, #modifyForm {
     position: absolute;
     background: white;
     width: 50%;

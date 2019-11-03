@@ -13,6 +13,14 @@
     if ($_POST['like']) {
         require_once 'app/model/like.php';
     }
+    if ($_POST['modify']) {
+        $_SESSION['modify'] = $_POST['modify'];
+        $_SESSION['modId'] = $_POST['modId'];
+    }
+    if ($_SESSION['modify']) {
+        require_once 'app/view/modify.php';
+        require_once 'app/model/modify.php';
+    }
     if ($_POST['delete']) {
         require_once 'app/model/delete.php';
     }

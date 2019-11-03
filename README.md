@@ -6,22 +6,22 @@ URL du site : http://iut.cruiz.fr/
 
 * Présentation du projet :     
   
-  *   Notre site est un réseau social novateur. Les discussions peuvent au maximum contenir X messages chacun composés de 1 ou 2 mots. Chaque utilisateur peut choisir de participer à un topic ouvert par un autre utilisateur ou par lui-même. Chaque visiteur ou utilisateur peut consulter un topic ayant été ouvert récemment. Un utilisateur peut rechercher un sujet en particulier. Il existe une fonctionnalité de "J'aime" pour indiquer qu'un topic est apprécié par la communauté.     
+  *   Notre site est un réseau social novateur. Les discussions peuvent au maximum contenir 10 réponses chacun (soit 11 messages en comptant le message original) composés de 1 ou 2 mots. Chaque utilisateur peut choisir de participer à un topic ouvert par un autre utilisateur ou par lui-même. Chaque visiteur ou utilisateur peut consulter un topic ayant été ouvert récemment. Il existe un système de "Like" pour indiquer qu'un topic est apprécié par la communauté.     
 
   * Rôles :  
-     * Super Admin : Peut lire créer modifier ou supprimer un/des message(s) ou une/des discussion(s) ouverte(nt) par les membres. Un super admin à une page avec une distinction par rapport a celle des membres : ADMIN écrit en haut de la page.  
+     * Super Admin : Peut lire créer modifier ou supprimer un/des message(s) ou une/des discussion(s) ouverte(s) par les membres. Un super admin dispose d'un panneau d'outils accessible par le lien 'admin' en rouge, écrit en haut à gauche de la page.  
        
-    * Membres : Il peut créer et lire des topics. Un membre peut modifier son message une seule fois et ne peut intervenir qu'une seule fois dans un message mais n'a pas de restriction sur le nombre de message qu'il peut écrire (la discussion sera fermée si la condition est remplie, ici 50 messages différents). Un membre peut éditer son profil, son mot de passe etc.   
+    * Membres : Il peut créer et lire des topics. Il peut modifier une seule fois chacun de ses messages et les supprimer de deux manières: remplacer le contenu par "Message supprimé" ou les détruire définitivement. 
     
     * Visiteurs : Il peut seulement lire les discussions ouvertes précédemment par les utilisateurs.  
     
-* Les choix techniques (technologies, algorithmes, etc.) et leurs raisons ;   
+* Les choix techniques :
+    * HTML, CSS, PHP : Imposé.
+    * AJAX : Plus de flexibilité pour les liens entre la base de donnée et le côté client en utilisant des fonctions PHP.  
 
-* Configuration logicielle minimale : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core 2 Duo 2,6 Ghz - RAM 2 Gb - Nvdia gtx 460 1 Go ou équivalente - 1Go dans le disque.  
+* Configuration logicielle conseillée : Mozilla Firefox.
 
-* Configuration logicielle conseillée : OS Windows 7/7 SP1/ windows 8/ 8.1/ windows 10 - Intel Core i5 2.8 Ghz - RAM 8 GB  -  Nvidia GTX 660 or AMD Radeon HD 7870 équivalent DX11 GPU, 2 GByte VRA.  
-
-* L'ensemble des identifiants de connexion :        
+* L'ensemble des identifiants de connexion :
 
     * Compte test :   
         * Identidiant : guest  
@@ -32,7 +32,7 @@ URL du site : http://iut.cruiz.fr/
         * Mot de passe : root       
         
     * Base de données   
-        * Host : 91.216.107.164  
+        * Host : https://mysql11.lwspanel.com/phpmyadmin/
         * Identifiant : cruiz1237388    
         * Mot de passe : bdni8pqery         
         

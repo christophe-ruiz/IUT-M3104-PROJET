@@ -37,7 +37,8 @@
             $date = $message['DATE_ENVOI'];
             $words = $message['CONTENU'];
             $id = $message['ID'];
-            $discussion = new Message($id, $author, $date, $words); ?>
+            $statut = $message['MODIFIE'];
+            $discussion = new Message($id, $author, $date, $words, $statut); ?>
 <article class="discussion">
         <?php if ((unserialize($_SESSION['userAdminStatus']) || $author == unserialize($_SESSION['userUsername'])) && !preg_match('/Message supprimé par .*/', $discussion->getWords())) { ?>
             <a onclick="deleteMsg(<?=$discussion->getId()?>, 0)" class="delete"> 🗑️ </a>
@@ -45,12 +46,17 @@
             <a onclick="deleteMsg(<?=$discussion->getId()?>, 1)" class="delete"> 🚮 </a>
         <?php } else { ?>
                 <div class="delete">  </div>
-        <?php } ?>
+        <?php
+        } if ((unserialize($_SESSION['userAdminStatus']) || $author == unserialize($_SESSION['userUsername'])) && !preg_match('/Message supprimé par .*/', $discussion->getWords()) && $discussion->getStatut() == 0) { ?>
+            <a onclick="modifyMsg(<?=$discussion->getId()?>)" class="delete"> 🖋️ </a>
+        <?php } else { ?>
+            <div class="delete">  </div>
+        <?php }?>
         <div class="topicId">
             <p> <?= $discussion->getId() ?> </p>
         </div>
         <div class="discussionId">
-            <p> <?= $discussion->getWords() ?> </p>
+            <p <?php if ($discussion->getStatut()) echo 'class="modifie"' ?>> <?= $discussion->getWords() ?> </p>
         </div>
         <div class="discussionInfo">
             <p> 🤵 <?= $discussion->getAuthor() ?> </p>

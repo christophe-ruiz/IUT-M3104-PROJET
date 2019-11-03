@@ -12,7 +12,8 @@
         $date = $message['DATE_ENVOI'];
         $words = $message['CONTENU'];
         $id = $message['ID'];
-        $discussion = new Message($id, $author, $date, $words); ?>
+        $statut = $message['MODIFIE'];
+        $discussion = new Message($id, $author, $date, $words, $statut); ?>
     <article class="topic">
         <span> <?= $discussion->getAuthor() ?> </span>
         <p> <?= $discussion->getWords() ?> </p>

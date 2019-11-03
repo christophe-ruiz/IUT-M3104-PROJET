@@ -37,3 +37,9 @@ function showNewTopicForm() {
     if (topic.style.visibility == 'visible') topic.style.visibility = 'hidden';
     else topic.style.visibility = 'visible';
 }
+
+function hideModifyForm() {
+    let form = document.getElementById('modifyForm');
+    if (form.style.visibility == 'visible') form.style.visibility = 'hidden';
+    else form.style.visibility = 'visible';
+}
