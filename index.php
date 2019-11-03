@@ -22,8 +22,6 @@
     if (isset($_POST['changeStatus'])) {
         require_once 'app/model/changeStatus.php';
     }
-    //require 'core/routes.php';
-    //var_dump($_SESSION);
     switch ($_GET['url']) {
         case 'index':
             require_once 'layouts/mainView.php';
