@@ -23,7 +23,7 @@
                 <p class="error" > La limite de messages pour ce topic a été atteinte. </p>
             <?php unset($_SESSION['limitReached']);
             } else if ($_SESSION['too_much_words']) {?>
-                <p class="error"> Le nombre de mots est trop élevé, <br> réessayez avec 2 mots maximum. </p>
+                <p class="error"> Le nombre de mots est trop élevé (<?= $_SESSION['too_much_words'] ?>), <br> réessayez avec 2 mots maximum. </p>
             <?php
                 unset($_SESSION['too_much_words']);
             } else if($_SESSION['too_few_words']) { ?>
@@ -58,6 +58,10 @@
                 <p class="info"> Valeur mise à jour </p>
                 <?php
                 unset($_SESSION['updated']);
+            }  else if ($_SESSION['alreadyReplied']) { ?>
+                <p class="error"> Vous avez déjà répondu à cette discussion </p>
+                <?php
+                unset($_SESSION['alreadyReplied']);
             }
             ?>
         </div>

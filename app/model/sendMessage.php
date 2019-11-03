@@ -20,17 +20,27 @@
 
     $id = $_SESSION['id'];
 
-    $sql = "SELECT COUNT(*) AS NB FROM MESSAGE WHERE ID_PERE='$id'";
-    $stmt = $myDb->getPDO()->query($sql);
-    $nbFils = $stmt->fetchAll()[0]['NB'];
+    if ($id) {
+        $sql = "SELECT COUNT(*) AS NB FROM MESSAGE WHERE ID_PERE='$id'";
+        $stmt = $myDb->getPDO()->query($sql);
+        $nbFils = $stmt->fetchAll()[0]['NB'];
 
+        $sql = "SELECT * FROM MESSAGE WHERE ID_PERE = $id AND USERNAME LIKE '$user'";
+        $stmt = $myDb->getPDO()->query($sql);
+        $nbRep = $stmt->rowCount();
+    }
     if ($nbFils >= unserialize($_SESSION['maxMSG'])) {
         $_SESSION['limitReached'] = 1;
         header('Location: ' . $_SERVER['HTTP_REFERER']);
         die();
     }
+    if ($nbRep && !unserialize($_SESSION['userAdminStatus'])) {
+        $_SESSION['alreadyReplied'] = 1;
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
+        die();
+    }
     if ($nb_mots > 2) {
-        $_SESSION['too_much_words'] = 1;
+        $_SESSION['too_much_words'] = $nb_mots;
         header('Location: ' . $_SERVER['HTTP_REFERER']);
         die();
     }
