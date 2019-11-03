@@ -23,6 +23,7 @@
         require_once 'app/model/changeStatus.php';
     }
     //require 'core/routes.php';
+    //var_dump($_SESSION);
     switch ($_GET['url']) {
         case 'index':
             require_once 'layouts/mainView.php';
@@ -30,7 +31,7 @@
         case 'board':
             require_once 'app/model/board.php';
             require_once 'app/view/board.php';
-            require_once 'layouts/mainView.php';
+            if (!$_SESSION['notConnected']) require_once 'layouts/mainView.php';
             break;
         case 'discussion':
             require_once 'app/model/discussion.php';

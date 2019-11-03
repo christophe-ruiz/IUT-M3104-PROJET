@@ -26,10 +26,6 @@ a{
     cursor: pointer;
 }
 
-a:visited{
-    color: #101820;
-}
-
 h1, h2, h3, p, a, span, label, input {
     font-family: 'Quicksand', sans-serif;
     transition: 0s;
@@ -480,6 +476,15 @@ input[type="text"]{
 .error {
     color: red;
     font-size: 1.5vw;
+}
+
+.info {
+    color: green;
+    font-size: 1.5vw;
+}
+
+.divError {
+    border: red solid 2px;
 }
 
 .likeBtn {

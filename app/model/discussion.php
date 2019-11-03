@@ -39,9 +39,9 @@
             $id = $message['ID'];
             $discussion = new Message($id, $author, $date, $words); ?>
 <article class="discussion">
-        <?php if ((unserialize($_SESSION['userAdminStatus']) || $author == $_SESSION['userUsername']) && !preg_match('/Message supprimé par .*/', $discussion->getWords())) { ?>
+        <?php if ((unserialize($_SESSION['userAdminStatus']) || $author == unserialize($_SESSION['userUsername'])) && !preg_match('/Message supprimé par .*/', $discussion->getWords())) { ?>
             <a onclick="deleteMsg(<?=$discussion->getId()?>, 0)" class="delete"> 🗑️ </a>
-        <?php } else if ((unserialize($_SESSION['userAdminStatus']) || $author == $_SESSION['userUsername'])) { ?>
+        <?php } else if ((unserialize($_SESSION['userAdminStatus']) || $author == unserialize($_SESSION['userUsername']))) { ?>
             <a onclick="deleteMsg(<?=$discussion->getId()?>, 1)" class="delete"> 🚮 </a>
         <?php } else { ?>
                 <div class="delete">  </div>

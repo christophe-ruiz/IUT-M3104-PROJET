@@ -3,4 +3,6 @@
     $myDb = new Database('config/dbCredentials.ini');
     $sql = "DELETE FROM UTILISATEUR WHERE USERNAME = '$name'";
     $myDb->getPdo()->prepare($sql)->execute();
+    $sql = "DELETE FROM LIKES WHERE USERNAME = '$name'";
+    $myDb->getPdo()->prepare($sql)->execute();
     unset($_POST['userDeletion']);

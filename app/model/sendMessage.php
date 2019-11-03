@@ -6,6 +6,12 @@
     $action = $_POST['sendMsg'];
     if (!isset($action) || empty($action)) die("Erreur message");
 
+    if (!isset($_SESSION['currentUser'])) {
+        $_SESSION['cantSend'] = TRUE;
+        header('Location: ../../index.php');
+        die();
+    }
+
     $myDb = new Database('../../config/dbCredentials.ini');
 
     $user = unserialize($_SESSION['userUsername']);
