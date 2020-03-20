@@ -33,9 +33,9 @@ URL du site : http://iut.cruiz.fr/
         * Mot de passe : root       
         
     * Base de données   
-        * Host : https://mysql11.lwspanel.com/phpmyadmin/
-        * Identifiant : cruiz1237388    
-        * Mot de passe : bdni8pqery         
+        * Host : ****
+        * Identifiant : ****    
+        * Mot de passe : ****        
         
 Un fichier (bd.sql) contient la base de données initiale.
 
